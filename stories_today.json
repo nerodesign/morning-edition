@@ -1,0 +1,72 @@
+[
+  {
+    "title": "The Universal Agent Prompt Formula",
+    "description": "The most-shared agent template of 2025-2026: a comprehensive 7-section structure covering Identity, Goal, Tools, Workflow, Guardrails, Memory, and Output Discipline. Uses XML-tagged thinking traces, verification loops, and conditional guidelines that load only when relevant. Builders are moving from monolithic prompts to this modular formula \u2014 keeping core identity light while injecting SOUL.md and MEMORY.md per session.",
+    "url": "https://x.com/akshay_pachaar/status/1973377325225091560",
+    "source": "X",
+    "category": "Agent Template"
+  },
+  {
+    "title": "Context Engineering Is the New Prompt Engineering",
+    "description": "The biggest paradigm shift of 2026: stop writing longer prompts. The 'Curse of Instructions' means more rules = worse compliance. Instead, smart builders manage what the agent sees \u2014 memory tiers, semantic caching, conditional guideline loading, and retrieval-augmented context. Skills-first architecture treats agents as composable modules, not giant brains. This is the architecture powering Hermes Agent, OpenClaw, and the new generation of persistent AI tools.",
+    "url": "https://x.com/akshay_pachaar/status/1973377325225091560",
+    "source": "X",
+    "category": "Agent Architecture"
+  },
+  {
+    "title": "Midjourney SREF + Cinematic Formula",
+    "description": "The current meta for Midjourney v7: combine hyper-specific subjects with SREF codes for instant style transfer. Trending codes right now include cyberpunk anime streetwear (2177124457), Blade Runner retro-futurism (3747634208), DC-style graphic novel (1970644407), and ukiyo-e cinematic grit (933683168). The formula: subject + pose + environment + mood + cinematic color grading + film grain + anamorphic lens + --sref CODE --v 7.",
+    "url": "https://x.com/i/status/2067729254041710876",
+    "source": "X (@promptsref)",
+    "category": "Image Generation"
+  },
+  {
+    "title": "Macro/Micro World Template \u2014 Most Viral Image Prompt",
+    "description": "The template that dominated early 2026: a macro medium (swirling mercury, molten gold, flowing silk) captured mid-motion, with a complete miniature world suspended inside it \u2014 cyberpunk cities, ancient battles, bioluminescent reefs \u2014 every detail sculpted from the material itself. Extreme macro photography meets conceptual art. Works consistently across Midjourney, Flux, and SD3 with astonishing results.",
+    "url": "https://x.com/i/status/2051468744908492944",
+    "source": "X (@maxescu)",
+    "category": "Image Prompt"
+  },
+  {
+    "title": "AI Video Golden Formula \u2014 The Filmmaker's Template",
+    "description": "Stop describing pictures. Describe scenes unfolding in time. This structured template combines Subject, Action/Motion, Environment, Camera Movement, Style, Lighting, Audio, and Quality into one repeatable prompt format. Key insight: describe camera movement first, add environmental dynamics (rain, particles, fabric physics), and use one clear action per 5-10 second clip. Works across Kling, Runway, Luma, and Veo 3.",
+    "url": "https://x.com/shushant_l/status/2067985851842539659",
+    "source": "X (@shushant_l)",
+    "category": "AI Video"
+  },
+  {
+    "title": "JSON-Structured Prompts for Brand-Grade AI Video",
+    "description": "A growing trend for Veo 3 and commercial work: replace free-form paragraphs with structured JSON prompts. Organize camera angles, lighting specs, transitions, and brand elements into hierarchical data. Sections cover project metadata, subject details, wardrobe, environment & lighting, and technical specs. Use an LLM to convert a simple idea into the full JSON structure \u2014 then feed that to your video model for dramatically more consistent outputs.",
+    "url": "https://x.com/mikefutia/status/1951282585235066933",
+    "source": "X (@mikefutia)",
+    "category": "AI Video"
+  },
+  {
+    "title": "Prompt-Master: A Claude Skill That Writes Perfect Prompts",
+    "description": "A free Claude skill trending on Reddit with 600+ GitHub stars and 2500+ users. It writes optimized prompts specifically tailored to whatever AI tool you're using \u2014 Cursor, Claude Code, GPT, Midjourney, or anything else. The skill analyzes your target tool's strengths and generates prompts that maximize output quality while minimizing token waste. Open source and installable in one click.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1rv9wvb/i_built_a_claude_skill_that_writes_perfect/",
+    "source": "Reddit (r/PromptEngineering)",
+    "category": "Skills Template"
+  },
+  {
+    "title": "From Prompt Engineer to Agent Engineer \u2014 The 5 Skills",
+    "description": "A Reddit deep-dive on bridging the gap in 2026: Context Engineering, Memory Architecture, Guardrails & Governance, Multi-Agent Orchestration, and Evaluation Systems. After the viral HN post about an AI agent publishing a hit piece, guardrails became non-negotiable. The post maps the concrete skills needed to move from writing prompts to building production agent systems that don't blow up.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1snyigz/from_prompt_engineer_to_agent_engineer_the_5/",
+    "source": "Reddit (r/PromptEngineering)",
+    "category": "Agent Engineering"
+  },
+  {
+    "title": "Production-Ready Agent Prompt Structure",
+    "description": "The template that works across classification, extraction, reasoning, chain-of-thought, and controlled output prompts. A flexible but battle-tested structure designed for agents that need to survive in production: clear role boundaries, decision trees, tool-use rules, and fallback behavior. 'Stop chatting' is the thesis \u2014 agents need deterministic structures, not conversational fluff.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/",
+    "source": "Reddit (r/AI_Agents)",
+    "category": "Agent Template"
+  },
+  {
+    "title": "Collection of System Prompts from Popular AI Agents",
+    "description": "A curated collection of real system prompts extracted from popular open-source AI agents \u2014 Cline, Bolt, and others. See how the tools you use actually instruct their models under the hood. Invaluable for understanding what production agent prompts look like at scale: how they handle tool calling, context windows, safety boundaries, and multi-turn conversations. Reverse-engineer the best.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1iytsyx/a_collection_of_system_prompts_for_popular_ai/",
+    "source": "Reddit (r/AI_Agents)",
+    "category": "Agent Pattern"
+  }
+]

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — Thursday, 25 June 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,700;14..32,900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:18px}
+body{font-family:'Inter',system-ui,sans-serif;line-height:1.5;color:#1a1a1a;background:#f8f5f0;overflow-x:hidden}
+h1,h2,h3,.fraunces{font-family:'Fraunces',Georgia,serif}
+
+/* MASTHEAD */
+.masthead{padding:3rem 2rem 1.5rem;text-align:center;border-bottom:3px double #1a1a1a;margin-bottom:0}
+.masthead .tag{font-family:'Inter';font-size:0.7rem;letter-spacing:0.35em;text-transform:uppercase;color:#8b4513;margin-bottom:0.5rem}
+.masthead h1{font-size:clamp(2.5rem,8vw,6rem);font-weight:900;line-height:0.95;letter-spacing:-0.03em}
+.masthead .dateline{font-size:0.8rem;color:#666;letter-spacing:0.2em;text-transform:uppercase;margin-top:0.8rem}
+.masthead .subtitle{font-size:1rem;color:#444;max-width:600px;margin:1rem auto 0;font-weight:300}
+
+/* SPREAD COMMONS */
+.spread{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:4rem 2rem;position:relative;overflow:hidden}
+.spread-inner{max-width:1100px;width:100%;position:relative;z-index:2}
+.numeral{font-family:'Fraunces',serif;font-size:clamp(6rem,15vw,16rem);font-weight:900;line-height:0.75;position:absolute;opacity:0.06;user-select:none;pointer-events:none;z-index:1}
+.story-title{font-family:'Fraunces',serif;font-size:clamp(2rem,5vw,4rem);font-weight:700;line-height:1.05;letter-spacing:-0.02em;margin-bottom:1.5rem}
+.story-meta{font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:0.8rem;font-weight:500}
+.story-desc{font-size:1.1rem;line-height:1.7;max-width:650px;margin-bottom:1.5rem}
+.story-link{display:inline-block;font-family:'Inter';font-weight:700;font-size:0.85rem;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;padding-bottom:2px;border-bottom:2px solid;transition:all 0.2s}
+.story-link:hover{opacity:0.7;padding-bottom:4px}
+
+/* 1. HERO */
+.s1{background:#111;color:#fff}
+.s1 .numeral{color:#fff;opacity:0.05;font-size:clamp(8rem,22vw,22rem);right:0;top:50%;transform:translateY(-50%)}
+.s1 .story-title{font-size:clamp(2.8rem,7vw,5.5rem);font-weight:900}
+.s1 .story-link{color:#fff;border-color:#fff}
+
+/* 2. MIDNIGHT */
+.s2{background:#0a0a10;color:#e0e0e0;background-image:radial-gradient(ellipse at 30% 20%,rgba(30,60,255,0.08) 0%,transparent 60%)}
+.s2 .numeral{color:#3050ff;opacity:0.08;left:10%;top:20%}
+.s2 .story-title{color:#fff}
+.s2 .story-meta{color:#3050ff}
+.s2 .story-link{color:#3050ff;border-color:#3050ff}
+
+/* 3. ROSE STAMP */
+.s3{background:#fff5f5}
+.s3 .stamp{position:absolute;right:3rem;top:3rem;border:4px solid #e53e3e;color:#e53e3e;padding:0.5rem 1.5rem;font-family:'Inter';font-weight:900;font-size:0.85rem;letter-spacing:0.15em;text-transform:uppercase;transform:rotate(8deg);z-index:3;opacity:0.85}
+.s3 .numeral{color:#e53e3e;opacity:0.05;right:0;bottom:0}
+.s3 .story-title{color:#1a1a1a}
+.s3 .story-link{color:#e53e3e;border-color:#e53e3e}
+
+/* 4. TERMINAL */
+.s4{background:#0c0c0c;font-family:'SF Mono','Fira Code','Cascadia Code',monospace;color:#00ff41}
+.s4 .story-title{font-family:'SF Mono','Fira Code',monospace;font-size:clamp(1.5rem,3.5vw,2.8rem);font-weight:400}
+.s4 .story-title::before{content:'$ ';color:#666}
+.s4 .story-meta{color:#0a0;font-family:monospace}
+.s4 .story-desc{font-family:'SF Mono','Fira Code',monospace;color:#0c0;font-size:0.95rem;max-width:700px}
+.s4 .story-link{font-family:monospace;color:#00ff41;border-color:#00ff41;border-bottom-style:dashed}
+.s4 .numeral{font-family:monospace;color:#00ff41;opacity:0.04;right:5%;top:50%;transform:translateY(-50%)}
+
+/* 5. ACADEMIC */
+.s5{background:#fefae0;color:#3c2415;background-image:linear-gradient(to bottom,transparent 39px,#d4c5a0 39px,#d4c5a0 40px,transparent 40px);background-size:100% 40px}
+.s5 .story-title{font-weight:400;font-style:italic}
+.s5 .story-title::first-letter{font-size:clamp(3.5rem,8vw,6rem);float:left;line-height:0.7;padding-right:0.3rem;font-weight:900;font-style:normal;color:#8b4513}
+.s5 .story-desc{text-align:justify;font-size:1.05rem}
+.s5 .story-link{color:#8b4513;border-color:#8b4513}
+.s5 .numeral{color:#8b4513;opacity:0.04;left:5%;top:10%}
+
+/* 6. MANIFESTO */
+.s6{background:#000;color:#fff}
+.s6 .story-inner{border-left:6px solid #e53e3e;padding-left:3rem}
+.s6 .story-title{font-size:clamp(2rem,5vw,3.5rem);font-weight:900;text-transform:uppercase}
+.s6 .story-meta{color:#e53e3e}
+.s6 .story-link{color:#e53e3e;border-color:#e53e3e}
+.s6 .numeral{color:#e53e3e;opacity:0.06;right:5%;bottom:5%}
+
+/* 7. EDITORIAL */
+.s7{background:#f4f1ea;color:#1a1a1a}
+.s7 .spread-inner{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.s7 .col-right{border-left:1px solid #ccc;padding-left:3rem}
+.s7 .story-title{font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:600}
+.s7 .story-desc{text-align:justify;column-count:2;column-gap:1.5rem}
+.s7 .story-link{color:#1a1a1a;border-color:#1a1a1a}
+.s7 .numeral{color:#1a1a1a;opacity:0.03;right:10%;bottom:10%}
+@media(max-width:768px){.s7 .spread-inner{grid-template-columns:1fr}.s7 .col-right{border-left:0;padding-left:0;border-top:1px solid #ccc;padding-top:2rem}}
+
+/* 8. BIG STAT */
+.s8{background:#fff;color:#1a1a1a}
+.s8 .big-num{font-family:'Fraunces',serif;font-size:clamp(8rem,20vw,18rem);font-weight:900;line-height:0.8;margin-bottom:0.5rem}
+.s8 .story-title{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:600}
+.s8 .story-desc{max-width:500px}
+.s8 .story-link{color:#1a1a1a;border-color:#1a1a1a}
+
+/* 9. BRUTALIST */
+.s9{background:#fff;font-family:monospace;color:#000;border:8px solid #000;margin:0}
+.s9 *{font-family:monospace}
+.s9 .story-title{font-weight:700;border-bottom:2px solid #000;display:inline-block;padding-bottom:0.3rem}
+.s9 .story-meta{color:#666}
+.s9 .story-link{color:#000;border-color:#000;border-bottom-style:solid}
+.s9 .numeral{opacity:0.03;color:#000}
+
+/* 10. FINALE */
+.s10{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 40%,#0f3460 70%,#533483 100%);color:#fff;text-align:center}
+.s10 .story-title{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:300;letter-spacing:0.05em}
+.s10 .story-desc{font-size:1.2rem;font-weight:300;opacity:0.8}
+.s10 .story-link{color:#fff;border-color:rgba(255,255,255,0.4)}
+.s10 .numeral{opacity:0.04;color:#fff;left:50%;top:50%;transform:translate(-50%,-50%);font-size:clamp(12rem,30vw,30rem)}
+
+/* COLOPHON */
+.colophon{padding:3rem 2rem;text-align:center;background:#111;color:#666;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase}
+.colophon a{color:#999;text-decoration:none;border-bottom:1px solid #444}
+.colophon a:hover{color:#fff}
+
+/* INDEX NAV */
+.issue-nav{padding:1.5rem 2rem;text-align:center;background:#fff;border-bottom:1px solid #eee;font-size:0.8rem}
+.issue-nav a{color:#1a1a1a;text-decoration:none;margin:0 0.5rem;border-bottom:1px solid #ddd}
+.issue-nav a:hover{border-color:#1a1a1a}
+
+@media(max-width:600px){
+  .spread{padding:2rem 1rem;min-height:auto}
+  .story-title{font-size:clamp(1.5rem,6vw,2.5rem)}
+  .story-desc{font-size:0.95rem}
+}
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+<div class="tag">The Daily Briefing for AI Builders</div>
+<h1>MORNING<br>EDITION</h1>
+<div class="dateline">Thursday, 25 June 2026</div>
+<div class="subtitle">10 trending prompts, templates & agent patterns — curated from X and Reddit, designed for your stack.</div>
+</header>
+
+<!-- SPREADS -->
+<section class="spread s1">
+<span class="numeral">01</span>
+<div class="spread-inner">
+<div class="story-meta">X &mdash; Agent Template</div>
+<h2 class="story-title">The Universal Agent Prompt Formula</h2>
+<p class="story-desc">The most-shared agent template of 2025-2026: a comprehensive 7-section structure covering Identity, Goal, Tools, Workflow, Guardrails, Memory, and Output Discipline. Uses XML-tagged thinking traces, verification loops, and conditional guidelines that load only when relevant. Builders are moving from monolithic prompts to this modular formula — keeping core identity light while injecting SOUL.md and MEMORY.md per session.</p>
+<a class="story-link" href="https://x.com/akshay_pachaar/status/1973377325225091560" target="_blank" rel="noopener">View Source &rarr;</a>
+</div>
+</section>
+<section class="spread s2">
+<span class="numeral">02</span>
+<div class="spread-inner">
+<div class="story-meta">X &mdash; Agent Architecture</div>
+<h2 class="story-title">Context Engineering Is the New Prompt Engineering</h2>
+<p class="story-desc">The biggest paradigm shift of 2026: stop writing longer prompts. The &#x27;Curse of Instructions&#x27; means more rules = worse compliance. Instead, smart builders manage what the agent sees — memory tiers, semantic caching, conditional guideline loading, and retrieval-augmented context. Skills-first architecture treats agents as composable modules, not giant brains. This is the architecture powering Hermes Agent, OpenClaw, and the new generation of persistent AI tools.</p>
+<a class="story-link" href="https://x.com/akshay_pachaar/status/1973377325225091560" target="_blank" rel="noopener">Open Thread &rarr;</a>
+</div>
+</section>
+<section class="spread s3">
+<span class="stamp">TRENDING</span>
+<span class="numeral">03</span>
+<div class="spread-inner">
+<div class="story-meta">X (@promptsref) &mdash; Image Generation</div>
+<h2 class="story-title">Midjourney SREF + Cinematic Formula</h2>
+<p class="story-desc">The current meta for Midjourney v7: combine hyper-specific subjects with SREF codes for instant style transfer. Trending codes right now include cyberpunk anime streetwear (2177124457), Blade Runner retro-futurism (3747634208), DC-style graphic novel (1970644407), and ukiyo-e cinematic grit (933683168). The formula: subject + pose + environment + mood + cinematic color grading + film grain + anamorphic lens + --sref CODE --v 7.</p>
+<a class="story-link" href="https://x.com/i/status/2067729254041710876" target="_blank" rel="noopener">See Prompt &rarr;</a>
+</div>
+</section>
+<section class="spread s4">
+<span class="numeral">04</span>
+<div class="spread-inner">
+<div class="story-meta">X (@maxescu) &mdash; Image Prompt</div>
+<h2 class="story-title">Macro/Micro World Template — Most Viral Image Prompt</h2>
+<p class="story-desc">The template that dominated early 2026: a macro medium (swirling mercury, molten gold, flowing silk) captured mid-motion, with a complete miniature world suspended inside it — cyberpunk cities, ancient battles, bioluminescent reefs — every detail sculpted from the material itself. Extreme macro photography meets conceptual art. Works consistently across Midjourney, Flux, and SD3 with astonishing results.</p>
+<a class="story-link" href="https://x.com/i/status/2051468744908492944" target="_blank" rel="noopener">cat prompt.txt &rarr;</a>
+</div>
+</section>
+<section class="spread s5">
+<span class="numeral">05</span>
+<div class="spread-inner">
+<div class="story-meta">X (@shushant_l) &mdash; AI Video</div>
+<h2 class="story-title">AI Video Golden Formula — The Filmmaker&#x27;s Template</h2>
+<p class="story-desc">Stop describing pictures. Describe scenes unfolding in time. This structured template combines Subject, Action/Motion, Environment, Camera Movement, Style, Lighting, Audio, and Quality into one repeatable prompt format. Key insight: describe camera movement first, add environmental dynamics (rain, particles, fabric physics), and use one clear action per 5-10 second clip. Works across Kling, Runway, Luma, and Veo 3.</p>
+<a class="story-link" href="https://x.com/shushant_l/status/2067985851842539659" target="_blank" rel="noopener">Read Full Thread &rarr;</a>
+</div>
+</section>
+<section class="spread s6">
+<span class="numeral">06</span>
+<div class="spread-inner">
+<div class="story-inner">
+<div class="story-meta">X (@mikefutia) &mdash; AI Video</div>
+<h2 class="story-title">JSON-Structured Prompts for Brand-Grade AI Video</h2>
+<p class="story-desc">A growing trend for Veo 3 and commercial work: replace free-form paragraphs with structured JSON prompts. Organize camera angles, lighting specs, transitions, and brand elements into hierarchical data. Sections cover project metadata, subject details, wardrobe, environment &amp; lighting, and technical specs. Use an LLM to convert a simple idea into the full JSON structure — then feed that to your video model for dramatically more consistent outputs.</p>
+<a class="story-link" href="https://x.com/mikefutia/status/1951282585235066933" target="_blank" rel="noopener">View Template &rarr;</a>
+</div>
+</div>
+</section>
+<section class="spread s7">
+<span class="numeral">07</span>
+<div class="spread-inner">
+<div class="col-left">
+<div class="story-meta">Reddit (r/PromptEngineering)</div>
+<h2 class="story-title">Prompt-Master: A Claude Skill That Writes Perfect Prompts</h2>
+</div>
+<div class="col-right">
+<p class="story-desc">A free Claude skill trending on Reddit with 600+ GitHub stars and 2500+ users. It writes optimized prompts specifically tailored to whatever AI tool you&#x27;re using — Cursor, Claude Code, GPT, Midjourney, or anything else. The skill analyzes your target tool&#x27;s strengths and generates prompts that maximize output quality while minimizing token waste. Open source and installable in one click.</p>
+<a class="story-link" href="https://www.reddit.com/r/PromptEngineering/comments/1rv9wvb/i_built_a_claude_skill_that_writes_perfect/" target="_blank" rel="noopener">Read More &rarr;</a>
+<p style="font-family:monospace;font-size:0.65rem;color:#999;margin-top:1rem;text-transform:uppercase;letter-spacing:0.1em">Skills Template</p>
+</div>
+</div>
+</section>
+<section class="spread s8">
+<span class="numeral">08</span>
+<div class="spread-inner">
+<div class="big-num">08</div>
+<div class="story-meta">Reddit (r/PromptEngineering) &mdash; Agent Engineering</div>
+<h2 class="story-title">From Prompt Engineer to Agent Engineer — The 5 Skills</h2>
+<p class="story-desc">A Reddit deep-dive on bridging the gap in 2026: Context Engineering, Memory Architecture, Guardrails &amp; Governance, Multi-Agent Orchestration, and Evaluation Systems. After the viral HN post about an AI agent publishing a hit piece, guardrails became non-negotiable. The post maps the concrete skills needed to move from writing prompts to building production agent systems that don&#x27;t blow up.</p>
+<a class="story-link" href="https://www.reddit.com/r/PromptEngineering/comments/1snyigz/from_prompt_engineer_to_agent_engineer_the_5/" target="_blank" rel="noopener">Get Prompt &rarr;</a>
+</div>
+</section>
+<section class="spread s9">
+<span class="numeral">09</span>
+<div class="spread-inner">
+<div class="story-meta">Reddit (r/AI_Agents) // Agent Template</div>
+<h2 class="story-title">Production-Ready Agent Prompt Structure</h2>
+<p class="story-desc">The template that works across classification, extraction, reasoning, chain-of-thought, and controlled output prompts. A flexible but battle-tested structure designed for agents that need to survive in production: clear role boundaries, decision trees, tool-use rules, and fallback behavior. &#x27;Stop chatting&#x27; is the thesis — agents need deterministic structures, not conversational fluff.</p>
+<a class="story-link" href="https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/" target="_blank" rel="noopener">[ OPEN ]</a>
+</div>
+</section>
+<section class="spread s10">
+<span class="numeral">10</span>
+<div class="spread-inner">
+<div class="story-meta" style="opacity:0.6">Reddit (r/AI_Agents) &mdash; Agent Pattern</div>
+<h2 class="story-title">Collection of System Prompts from Popular AI Agents</h2>
+<p class="story-desc">A curated collection of real system prompts extracted from popular open-source AI agents — Cline, Bolt, and others. See how the tools you use actually instruct their models under the hood. Invaluable for understanding what production agent prompts look like at scale: how they handle tool calling, context windows, safety boundaries, and multi-turn conversations. Reverse-engineer the best.</p>
+<a class="story-link" href="https://www.reddit.com/r/AI_Agents/comments/1iytsyx/a_collection_of_system_prompts_for_popular_ai/" target="_blank" rel="noopener">Explore &rarr;</a>
+</div>
+</section>
+
+<!-- COLOPHON -->
+<footer class="colophon">
+<p>Morning Edition · Published daily at 7am AWST · Curated by <a href="https://github.com/nerodesign/morning-edition">StudioOps</a></p>
+<p>Sources: <a href="https://x.com">X (Twitter)</a> · <a href="https://reddit.com">Reddit</a> · All prompts link to original posts</p>
+<p style="margin-top:0.5rem;color:#444">Built with Fraunces & Inter · 2026-06-25 09:58 UTC</p>
+</footer>
+</body>
+</html>
