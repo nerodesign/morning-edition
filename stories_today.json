@@ -1,72 +1,72 @@
 [
   {
-    "title": "The Modular Agent Skills Revolution: Plan→Act→Observe→Revise",
-    "description": "The 2026 meta has decisively shifted from monolithic system prompts to composable Agent Skills packages — reusable bundles of prompts, tool descriptions, examples, and guardrails. Builders are converging on explicit Plan→Act→Observe→Revise loops with structured JSON outputs, and platforms like OpenAgentSkill now serve as app stores for agent capabilities rather than raw prompt markets.",
-    "url": "https://x.com/i/status/2069769797093531929",
+    "title": "Loop Engineering: The New Meta for Autonomous AI Agents",
+    "description": "The hottest paradigm shift on X right now moves beyond one-shot prompts to continuous autonomous loops — agents that run Discover → Plan → Execute → Verify → Iterate cycles without human intervention. Creators are sharing battle-tested system prompts that define explicit phases, verification gates, and memory management, rejecting 'coworker-style' agents for precise machine-like execution.",
+    "url": "https://x.com/i/status/2070264646427119796",
     "source": "X",
-    "category": "Agent Architecture"
+    "category": "Agent Engineering"
   },
   {
-    "title": "The One-Person Business OS: 7 Viral Prompts Redefining AI Strategy",
-    "description": "A set of seven high-leverage prompt templates — from the One-Person Business OS to the 90-Day Success Blueprint — exploded across X this week by treating AI as a complete operating system rather than a chatbot. These prompts combine strategic planning, market analysis, content creation, and execution roadmapping into single-shot workflows that produce actionable 90-day plans.",
-    "url": "https://x.com/i/status/2069600276424896580",
+    "title": "No-Fluff Anti-Anthropomorphic Agent Prompt Goes Viral",
+    "description": "A direct execution system prompt template is gaining massive traction by explicitly forbidding conversational filler — no 'Happy to help', no 'I think', no apologies. The prompt enforces structured output only (STATUS, ACTIONS, DECISION, OUTPUT) and has become the gold standard for production agents that need to be tools, not coworkers.",
+    "url": "https://x.com/i/status/2070394903574810697",
     "source": "X",
-    "category": "Agent Template"
+    "category": "Agent Pattern"
   },
   {
-    "title": "The Cozy Miniature Jar Scene: Macro Diorama Prompt Taking Over AI Art",
-    "description": "A hyper-detailed 3D diorama prompt featuring a chibi figurine sleeping inside a glass jar on a rainy windowsill has become the most-shared artistic prompt of the day. The formula combines macro photography, shallow depth of field, warm interior lighting against cool rainy exteriors, and hyper-realistic textures — consistently producing viral results across Midjourney, SDXL, Flux, and Gemini.",
-    "url": "https://x.com/i/status/2069787653613228398",
+    "title": "Picasso Meets Kawaii Minimalism: The Viral Cubist Portrait Prompt",
+    "description": "A stunning image prompt combining neo-expressionist cubism with kawaii minimalism is dominating AI art feeds — producing gallery-worthy vector portraits with oversized abstract eyes, geometric facial planes, and oil pastel texture overlays against deep matte black backgrounds. Works across ChatGPT Image 2, Grok, and Flux-based tools.",
+    "url": "https://x.com/i/status/2069938006274769164",
     "source": "X",
     "category": "Image Generation"
   },
   {
-    "title": "Cinematic Personal Branding Portrait: The Image-to-Image Template Everywhere",
-    "description": "An image-to-image prompt template for turning selfies into magazine-quality professional headshots is dominating creator feeds. The formula — 'keep my face accurate, place me on a luxury skyscraper rooftop at golden hour, premium suit, cinematic lighting, shallow depth of field' — consistently wins face-accuracy benchmarks across ChatGPT Image, Claude, and Flux-based tools.",
-    "url": "https://x.com/i/status/2069616569077092706",
+    "title": "Luxury CEO Portrait: The Photo-to-Magazine-Cover Transformation Template",
+    "description": "A meticulously engineered prompt template turns any uploaded photo into a Forbes-cover-quality lifestyle portrait — complete with lens specs (Sony A7R V, 85mm f/1.2), cinematic bokeh, and luxury brand aesthetics. The image-to-image workflow is the biggest AI photography trend right now, with variations for cinematic, editorial, and cyberpunk styles.",
+    "url": "https://x.com/i/status/2070504604073144352",
     "source": "X",
     "category": "Image Prompt"
   },
   {
-    "title": "The Hybrid AI Video Workflow: Reference-First Prompting With Claude + Kling + Runway",
-    "description": "The dominant AI video production pattern has crystallized: use Claude or Grok to draft scripts and scene prompts, generate keyframe reference images first (Flux/Midjourney), then feed those into Kling 3.0, Runway, or Seedance 2.5 in image-to-video mode with precise motion instructions. The breakthrough is anchoring every shot to a reference frame and using negative instructions to eliminate unwanted motion artifacts.",
-    "url": "https://x.com/i/status/2069753232340267162",
+    "title": "Typographic Animal Sculpture: A System Prompt for Endless Gallery Variations",
+    "description": "A complex, parameterized system prompt generates 3D gallery sculptures where animal forms are built entirely from letterforms — supporting any word, animal species, material (matte ceramic, polished chrome, translucent resin), and scene style. The prompt includes build logic, style control, composition rules, and negative constraints to prevent flat logo-like outputs.",
+    "url": "https://x.com/i/status/2070162348917334321",
+    "source": "X",
+    "category": "Image Generation"
+  },
+  {
+    "title": "Pipeline Thinking: Why Single-Prompt AI Video Is Dead",
+    "description": "Top AI video creators are abandoning one-shot generation for full film-production pipelines: LLMs handle story and scene breakdowns, character sheets ensure visual consistency, storyboards map every shot, and post-production (sound design, color grading, captions) drives the final 20% of perceived quality. The structured workflow delivers cinematic results reproducibly across Seedance 2.5, Kling 3.0, and Higgsfield.",
+    "url": "https://x.com/ZentrixHQ/status/2070180626993492455",
     "source": "X",
     "category": "AI Video"
   },
   {
-    "title": "Master Agent Skills Template: Structured Observation Loops With Escape Hatches",
-    "description": "A synthesized agent template combining the best practices from active builders has gained traction: explicit Plan→Action→Observation→Reflection loop formatting, 'if uncertain ask before proceeding' escape hatches, tool descriptions prioritized over lengthy system prompts, and structured markdown output. The template treats agents like new hires briefed in plain English rather than coded JSON instructions.",
-    "url": "https://x.com/i/status/2069769833248383462",
+    "title": "Precise Cinematic Camera Language for AI Video Prompts",
+    "description": "A detailed guide to using real filmmaking terminology in AI video prompts — specifying slow push-ins, dolly moves, orbiting cameras, parallax, and motion reference videos with '1:1 frame for frame' instructions. The technique dramatically reduces the 'floaty AI camera' problem and produces grounded, professional-looking shots with temporal consistency.",
+    "url": "https://x.com/martinleblanc/status/2070430506865271122",
     "source": "X",
+    "category": "AI Video"
+  },
+  {
+    "title": "20+ Prompts That Actually Work in 2026 — Battle-Tested Across 10 Categories",
+    "description": "A Reddit-curated collection of 20+ prompt templates tested across creative, coding, research, and business use cases, each with ready-to-copy templates and category tags. The post emphasizes structured prompting techniques like COSTAR and explicit context framing as the highest-ROI skills for 2026.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sw6z8q/20_prompts_that_actually_work_in_2026/",
+    "source": "Reddit",
     "category": "Skills Template"
   },
   {
-    "title": "1,446 Trending AI Image Prompts Open Sourced — Complete With System Prompt & MCP",
-    "description": "A massive open-source dataset of 1,446 trending AI image prompts, ranked by likes and updated weekly, dropped on r/PromptEngineering. Each entry includes full prompt text, author, engagement metrics, generated image URLs, model type, and category tags — all in JSON under CC BY 4.0, with a companion MCP server for direct integration into agent workflows.",
+    "title": "Open Source: 1,446 Trending AI Image Prompts for GPT Image 2 & NanoBanana",
+    "description": "A massive open-source prompt dataset scraped from X trends, featuring 1,446 viral image prompts complete with author attribution, likes, views, generated image URLs, and model-specific formatting. Includes companion MCP server integration and a live gallery, making it the largest prompt research corpus available for image generation.",
     "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
     "source": "Reddit",
-    "category": "Image Prompt"
+    "category": "Image Generation"
   },
   {
-    "title": "20+ Prompts That Actually Work in 2026 — Battle-Tested Templates",
-    "description": "A curated collection of 20+ prompt techniques with copy-ready templates landed on r/PromptEngineering, emphasizing that 2026's best performers are structured reasoning frameworks rather than clever one-liners. The collection covers research, coding, content creation, and business strategy with before/after examples demonstrating why each template outperforms generic prompting.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sw6z8q/20_prompts_that_actually_work_in_2026/",
+    "title": "Production-Ready AI Agent Template: LangGraph + Clean Architecture",
+    "description": "An open-source production template combining LangGraph's agentic framework with Clean Architecture principles — featuring dependency injection ports, model-agnostic design, and a cache layer keyed by (prompt_version, model_id, input_hash) for regression testing. The architecture isolates the agent framework behind ports, making model and database swaps trivial configuration changes.",
+    "url": "https://www.reddit.com/r/LangChain/comments/1ss1r93/i_built_a_productionready_template_for_ai_agents/",
     "source": "Reddit",
-    "category": "Agent Pattern"
-  },
-  {
-    "title": "ChatGPT Image Prompt Template Library: 150+ Prompts for Content, Branding & Ads",
-    "description": "A Redditor shared a 150+ prompt template library specifically optimized for ChatGPT Image, organized by use case: content creation, branding, business, AI art, ads, photography, and cinematic styles. The library is updated daily and includes the exact prompt structure that consistently produces magazine-quality output — a practical resource for marketers and creators alike.",
-    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
-    "source": "Reddit",
-    "category": "Marketing AI"
-  },
-  {
-    "title": "The Viral AR Dreamlike Prompt: Cinematic Floating UI Cards Trend",
-    "description": "A cinematic AR-style prompt featuring a photorealistic subject surrounded by floating 3D Spotify/Apple Music interface cards orbiting at varying depths has gone viral on r/ImagineAiArt. The dreamlike composition — combining shallow depth of field, bokeh, and UI elements at multiple z-depths — has become one of the most replicated image generation templates of the month.",
-    "url": "https://www.reddit.com/r/ImagineAiArt/comments/1shic17/everyone_is_generating_this_viral_ai_image_trend/",
-    "source": "Reddit",
-    "category": "Image Prompt"
+    "category": "Agent Template"
   }
 ]
