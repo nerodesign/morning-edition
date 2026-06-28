@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — Sunday, 28 June 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,700;14..32,900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:18px}
+body{font-family:'Inter',system-ui,sans-serif;line-height:1.5;color:#1a1a1a;background:#f8f5f0;overflow-x:hidden}
+h1,h2,h3,.fraunces{font-family:'Fraunces',Georgia,serif}
+
+/* MASTHEAD */
+.masthead{padding:3rem 2rem 1.5rem;text-align:center;border-bottom:3px double #1a1a1a;margin-bottom:0}
+.masthead .tag{font-family:'Inter';font-size:0.7rem;letter-spacing:0.35em;text-transform:uppercase;color:#8b4513;margin-bottom:0.5rem}
+.masthead h1{font-size:clamp(2.5rem,8vw,6rem);font-weight:900;line-height:0.95;letter-spacing:-0.03em}
+.masthead .dateline{font-size:0.8rem;color:#666;letter-spacing:0.2em;text-transform:uppercase;margin-top:0.8rem}
+.masthead .subtitle{font-size:1rem;color:#444;max-width:600px;margin:1rem auto 0;font-weight:300}
+
+/* SPREAD COMMONS */
+.spread{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:4rem 2rem;position:relative;overflow:hidden}
+.spread-inner{max-width:1100px;width:100%;position:relative;z-index:2}
+.numeral{font-family:'Fraunces',serif;font-size:clamp(6rem,15vw,16rem);font-weight:900;line-height:0.75;position:absolute;opacity:0.06;user-select:none;pointer-events:none;z-index:1}
+.story-title{font-family:'Fraunces',serif;font-size:clamp(2rem,5vw,4rem);font-weight:700;line-height:1.05;letter-spacing:-0.02em;margin-bottom:1.5rem}
+.story-meta{font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:0.8rem;font-weight:500}
+.story-desc{font-size:1.1rem;line-height:1.7;max-width:650px;margin-bottom:1.5rem}
+.story-link{display:inline-block;font-family:'Inter';font-weight:700;font-size:0.85rem;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;padding-bottom:2px;border-bottom:2px solid;transition:all 0.2s}
+.story-link:hover{opacity:0.7;padding-bottom:4px}
+
+/* 1. HERO */
+.s1{background:#111;color:#fff}
+.s1 .numeral{color:#fff;opacity:0.05;font-size:clamp(8rem,22vw,22rem);right:0;top:50%;transform:translateY(-50%)}
+.s1 .story-title{font-size:clamp(2.8rem,7vw,5.5rem);font-weight:900}
+.s1 .story-link{color:#fff;border-color:#fff}
+
+/* 2. MIDNIGHT */
+.s2{background:#0a0a10;color:#e0e0e0;background-image:radial-gradient(ellipse at 30% 20%,rgba(30,60,255,0.08) 0%,transparent 60%)}
+.s2 .numeral{color:#3050ff;opacity:0.08;left:10%;top:20%}
+.s2 .story-title{color:#fff}
+.s2 .story-meta{color:#3050ff}
+.s2 .story-link{color:#3050ff;border-color:#3050ff}
+
+/* 3. ROSE STAMP */
+.s3{background:#fff5f5}
+.s3 .stamp{position:absolute;right:3rem;top:3rem;border:4px solid #e53e3e;color:#e53e3e;padding:0.5rem 1.5rem;font-family:'Inter';font-weight:900;font-size:0.85rem;letter-spacing:0.15em;text-transform:uppercase;transform:rotate(8deg);z-index:3;opacity:0.85}
+.s3 .numeral{color:#e53e3e;opacity:0.05;right:0;bottom:0}
+.s3 .story-title{color:#1a1a1a}
+.s3 .story-link{color:#e53e3e;border-color:#e53e3e}
+
+/* 4. TERMINAL */
+.s4{background:#0c0c0c;font-family:'SF Mono','Fira Code','Cascadia Code',monospace;color:#00ff41}
+.s4 .story-title{font-family:'SF Mono','Fira Code',monospace;font-size:clamp(1.5rem,3.5vw,2.8rem);font-weight:400}
+.s4 .story-title::before{content:'$ ';color:#666}
+.s4 .story-meta{color:#0a0;font-family:monospace}
+.s4 .story-desc{font-family:'SF Mono','Fira Code',monospace;color:#0c0;font-size:0.95rem;max-width:700px}
+.s4 .story-link{font-family:monospace;color:#00ff41;border-color:#00ff41;border-bottom-style:dashed}
+.s4 .numeral{font-family:monospace;color:#00ff41;opacity:0.04;right:5%;top:50%;transform:translateY(-50%)}
+
+/* 5. ACADEMIC */
+.s5{background:#fefae0;color:#3c2415;background-image:linear-gradient(to bottom,transparent 39px,#d4c5a0 39px,#d4c5a0 40px,transparent 40px);background-size:100% 40px}
+.s5 .story-title{font-weight:400;font-style:italic}
+.s5 .story-title::first-letter{font-size:clamp(3.5rem,8vw,6rem);float:left;line-height:0.7;padding-right:0.3rem;font-weight:900;font-style:normal;color:#8b4513}
+.s5 .story-desc{text-align:justify;font-size:1.05rem}
+.s5 .story-link{color:#8b4513;border-color:#8b4513}
+.s5 .numeral{color:#8b4513;opacity:0.04;left:5%;top:10%}
+
+/* 6. MANIFESTO */
+.s6{background:#000;color:#fff}
+.s6 .story-inner{border-left:6px solid #e53e3e;padding-left:3rem}
+.s6 .story-title{font-size:clamp(2rem,5vw,3.5rem);font-weight:900;text-transform:uppercase}
+.s6 .story-meta{color:#e53e3e}
+.s6 .story-link{color:#e53e3e;border-color:#e53e3e}
+.s6 .numeral{color:#e53e3e;opacity:0.06;right:5%;bottom:5%}
+
+/* 7. EDITORIAL */
+.s7{background:#f4f1ea;color:#1a1a1a}
+.s7 .spread-inner{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.s7 .col-right{border-left:1px solid #ccc;padding-left:3rem}
+.s7 .story-title{font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:600}
+.s7 .story-desc{text-align:justify;column-count:2;column-gap:1.5rem}
+.s7 .story-link{color:#1a1a1a;border-color:#1a1a1a}
+.s7 .numeral{color:#1a1a1a;opacity:0.03;right:10%;bottom:10%}
+@media(max-width:768px){.s7 .spread-inner{grid-template-columns:1fr}.s7 .col-right{border-left:0;padding-left:0;border-top:1px solid #ccc;padding-top:2rem}}
+
+/* 8. BIG STAT */
+.s8{background:#fff;color:#1a1a1a}
+.s8 .big-num{font-family:'Fraunces',serif;font-size:clamp(8rem,20vw,18rem);font-weight:900;line-height:0.8;margin-bottom:0.5rem}
+.s8 .story-title{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:600}
+.s8 .story-desc{max-width:500px}
+.s8 .story-link{color:#1a1a1a;border-color:#1a1a1a}
+
+/* 9. BRUTALIST */
+.s9{background:#fff;font-family:monospace;color:#000;border:8px solid #000;margin:0}
+.s9 *{font-family:monospace}
+.s9 .story-title{font-weight:700;border-bottom:2px solid #000;display:inline-block;padding-bottom:0.3rem}
+.s9 .story-meta{color:#666}
+.s9 .story-link{color:#000;border-color:#000;border-bottom-style:solid}
+.s9 .numeral{opacity:0.03;color:#000}
+
+/* 10. FINALE */
+.s10{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 40%,#0f3460 70%,#533483 100%);color:#fff;text-align:center}
+.s10 .story-title{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:300;letter-spacing:0.05em}
+.s10 .story-desc{font-size:1.2rem;font-weight:300;opacity:0.8}
+.s10 .story-link{color:#fff;border-color:rgba(255,255,255,0.4)}
+.s10 .numeral{opacity:0.04;color:#fff;left:50%;top:50%;transform:translate(-50%,-50%);font-size:clamp(12rem,30vw,30rem)}
+
+/* COLOPHON */
+.colophon{padding:3rem 2rem;text-align:center;background:#111;color:#666;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase}
+.colophon a{color:#999;text-decoration:none;border-bottom:1px solid #444}
+.colophon a:hover{color:#fff}
+
+/* INDEX NAV */
+.issue-nav{padding:1.5rem 2rem;text-align:center;background:#fff;border-bottom:1px solid #eee;font-size:0.8rem}
+.issue-nav a{color:#1a1a1a;text-decoration:none;margin:0 0.5rem;border-bottom:1px solid #ddd}
+.issue-nav a:hover{border-color:#1a1a1a}
+
+@media(max-width:600px){
+  .spread{padding:2rem 1rem;min-height:auto}
+  .story-title{font-size:clamp(1.5rem,6vw,2.5rem)}
+  .story-desc{font-size:0.95rem}
+}
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+<div class="tag">The Daily Briefing for AI Builders</div>
+<h1>MORNING<br>EDITION</h1>
+<div class="dateline">Sunday, 28 June 2026</div>
+<div class="subtitle">10 trending prompts, templates & agent patterns — curated from X and Reddit, designed for your stack.</div>
+</header>
+
+<!-- SPREADS -->
+<section class="spread s1">
+<span class="numeral">01</span>
+<div class="spread-inner">
+<div class="story-meta">X &mdash; Agent Template</div>
+<h2 class="story-title">The SKILL.md Revolution: Modular Agent Skills Are the New Prompt Engineering</h2>
+<p class="story-desc">The 2026 meta has shifted from monolithic prompts to reusable SKILL.md files that coding agents auto-discover and load like code dependencies. Top builders maintain a skills library — portable across Claude Code, Cursor, Codex, and Gemini CLI — with triggers, rules, examples, and self-improvement loops. This pattern treats prompt templates as maintainable, self-improving code rather than throwaway one-offs.</p>
+<a class="story-link" href="https://x.com/noahelhadedy/status/2070947313091256663" target="_blank" rel="noopener">View Source &rarr;</a>
+</div>
+</section>
+<section class="spread s2">
+<span class="numeral">02</span>
+<div class="spread-inner">
+<div class="story-meta">Reddit &mdash; Agent Architecture</div>
+<h2 class="story-title">Production AI Agent Template: LangGraph + Clean Architecture, Open Source</h2>
+<p class="story-desc">A builder released a production-ready template for AI agents using LangGraph with Clean Architecture principles — model outputs are cached by (prompt_version, model_id, input_hash), and tool responses are recorded for regression testing on prompt changes. The architecture ports models and databases behind clean interfaces, making swaps cheap while the agentic framework itself remains the hard migration.</p>
+<a class="story-link" href="https://www.reddit.com/r/LangChain/comments/1ss1r93/i_built_a_productionready_template_for_ai_agents/" target="_blank" rel="noopener">Open Thread &rarr;</a>
+</div>
+</section>
+<section class="spread s3">
+<span class="stamp">TRENDING</span>
+<span class="numeral">03</span>
+<div class="spread-inner">
+<div class="story-meta">X &mdash; Image Prompt</div>
+<h2 class="story-title">The Makoto Shinkai Cinematic Anime Prompt Dominating AI Image Generation</h2>
+<p class="story-desc">This highly specific cinematic anime prompt — placing a subject in a golden-hour London scene with Big Ben, autumn leaves, and painterly Makoto Shinkai-inspired aesthetics — is producing consistently stunning results across Grok, Gemini, and GPT Image 2.0. The key is extreme specificity: detailed clothing, exact lighting conditions, art style references, and technical quality boosters.</p>
+<a class="story-link" href="https://x.com/i/status/2070910779751051615" target="_blank" rel="noopener">See Prompt &rarr;</a>
+</div>
+</section>
+<section class="spread s4">
+<span class="numeral">04</span>
+<div class="spread-inner">
+<div class="story-meta">Reddit &mdash; Image Generation</div>
+<h2 class="story-title">1,446 Trending AI Image Prompts: Open Source Library for GPT Image 2 &amp; NanoBanana</h2>
+<p class="story-desc">An open-source &#x27;Awesome&#x27; list curates 1,446 trending AI image prompts sourced from X trends, split between GPT Image 2 (posters, typography, multi-panel storyboards) and NanoBanana (portraits, product shots, often JSON-structured). Includes system prompts, a companion MCP server, and a live gallery — featured in Awesome Prompt Engineering at 5.5k GitHub stars.</p>
+<a class="story-link" href="https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/" target="_blank" rel="noopener">cat prompt.txt &rarr;</a>
+</div>
+</section>
+<section class="spread s5">
+<span class="numeral">05</span>
+<div class="spread-inner">
+<div class="story-meta">X &mdash; AI Video</div>
+<h2 class="story-title">JSON-Structured Video Prompts: The New Standard for Seedance 2.0 &amp; Veo</h2>
+<p class="story-desc">Plain paragraph prompts force AI video models to guess camera, lighting, and motion — JSON removes that ambiguity. The trending structure specifies subject, camera_angle, focus, lighting, mood, motion, and style as discrete parameters. Swap one field (e.g. &#x27;ultra-low angle&#x27; to &#x27;top-down aerial&#x27;) and get radically different but coherent variations of the same scene.</p>
+<a class="story-link" href="https://x.com/ZentrixHQ/status/2070762169575047558" target="_blank" rel="noopener">Read Full Thread &rarr;</a>
+</div>
+</section>
+<section class="spread s6">
+<span class="numeral">06</span>
+<div class="spread-inner">
+<div class="story-inner">
+<div class="story-meta">X &mdash; AI Video</div>
+<h2 class="story-title">Storyboard-First AI Filmmaking: Using Claude to Direct AI Video Shot-by-Shot</h2>
+<p class="story-desc">Top AI video creators now use Claude or GPT as a commercial director to write multi-shot sequences with precise camera lens, angle, character action, and lighting for each shot — then feed one shot at a time into Seedance, Veo, or Kling. Multi-shot prompts in one go produce incoherent results; individual generation with references creates cinematic sequences ready for CapCut assembly.</p>
+<a class="story-link" href="https://x.com/cyberrgirlie/status/2070930498122047794" target="_blank" rel="noopener">View Template &rarr;</a>
+</div>
+</div>
+</section>
+<section class="spread s7">
+<span class="numeral">07</span>
+<div class="spread-inner">
+<div class="col-left">
+<div class="story-meta">X</div>
+<h2 class="story-title">Ultra-Realistic Graphite Pencil Sketch: The AI Art Prompt With Highest Engagement</h2>
+</div>
+<div class="col-right">
+<p class="story-desc">A hyper-detailed black-and-white graphite pencil drawing prompt — specifying layered hair, cat-eye glasses, fine cross-hatching, gradient textures, and a cozy indoor setting — is generating the highest engagement rates across AI art communities. The prompt&#x27;s success comes from combining ultra-specific physical details with technical art terminology (cross-hatching, soft shadows, clean linework).</p>
+<a class="story-link" href="https://x.com/i/status/2070884890183406079" target="_blank" rel="noopener">Read More &rarr;</a>
+<p style="font-family:monospace;font-size:0.65rem;color:#999;margin-top:1rem;text-transform:uppercase;letter-spacing:0.1em">Image Prompt</p>
+</div>
+</div>
+</section>
+<section class="spread s8">
+<span class="numeral">08</span>
+<div class="spread-inner">
+<div class="big-num">08</div>
+<div class="story-meta">Reddit &mdash; Skills Template</div>
+<h2 class="story-title">500+ Free AI Prompt Templates &amp; 1,000+ Agent Skills Library, Fully Open Source</h2>
+<p class="story-desc">A curated, cross-tool library of 500+ prompt templates and 1,000+ agent skills — covering content creation, branding, AI art, advertising, photography, and cinematic styles — is now available as a free resource. Built for Claude Code, Cursor, and parallel agent workflows, the library addresses the friction of prompt refinement and skill management with categorized, copy-paste templates.</p>
+<a class="story-link" href="https://www.reddit.com/r/SideProject/comments/1s8o8gh/i_built_a_completly_free_ai_prompt_library_with/" target="_blank" rel="noopener">Get Prompt &rarr;</a>
+</div>
+</section>
+<section class="spread s9">
+<span class="numeral">09</span>
+<div class="spread-inner">
+<div class="story-meta">Reddit // Agent Engineering</div>
+<h2 class="story-title">20+ Prompts That Actually Work in 2026: Tested, Templated, Production-Ready</h2>
+<p class="story-desc">A community-vetted collection of 20+ prompt techniques with ready-to-copy templates — covering research, code generation, content creation, and agent orchestration — has been tested across Claude, GPT-5, and Gemini 3. The templates follow a structure-first philosophy: task content at the beginning, detailed rules, few-shot examples, and explicit thinking instructions.</p>
+<a class="story-link" href="https://www.reddit.com/r/PromptEngineering/comments/1sw6z8q/20_prompts_that_actually_work_in_2026/" target="_blank" rel="noopener">[ OPEN ]</a>
+</div>
+</section>
+<section class="spread s10">
+<span class="numeral">10</span>
+<div class="spread-inner">
+<div class="story-meta" style="opacity:0.6">Reddit &mdash; Agent Template</div>
+<h2 class="story-title">GPT-5 Era Prompt Hacks: Google&#x27;s &#x27;Gems&#x27; Turn Prompts Into Autonomous Custom Agents</h2>
+<p class="story-desc">Google&#x27;s Gemini 3 and Workspace Studio &#x27;Gems&#x27; represent a paradigm shift where prompts become persistent, autonomous custom agents — no more hand-holding every reply. Combined with GPT-5&#x27;s extended reasoning, the new best practice is writing &#x27;agent constitution&#x27; style prompts that define operational modes, safety boundaries, and self-improvement rules rather than one-shot instructions.</p>
+<a class="story-link" href="https://www.reddit.com/r/ChatGPTPromptGenius/comments/1pknwet/gpt5_prompt_hacks_evolving_for_2026_ai_agents/" target="_blank" rel="noopener">Explore &rarr;</a>
+</div>
+</section>
+
+<!-- COLOPHON -->
+<footer class="colophon">
+<p>Morning Edition · Published daily at 7am AWST · Curated by <a href="https://github.com/nerodesign/morning-edition">StudioOps</a></p>
+<p>Sources: <a href="https://x.com">X (Twitter)</a> · <a href="https://reddit.com">Reddit</a> · All prompts link to original posts</p>
+<p style="margin-top:0.5rem;color:#444">Built with Fraunces & Inter · 2026-06-28 23:02 UTC</p>
+</footer>
+</body>
+</html>
