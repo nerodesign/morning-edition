@@ -1,72 +1,72 @@
 [
   {
-    "title": "SOUL.md: The Agent Identity Template Taking Over 2026",
-    "description": "The SOUL.md pattern—an agent personality layer sitting before tools, memory, and skills—has become the new standard for modular agent design. This 8-section template (Identity, Core Truths, Worldview, Voice, Expertise, Boundaries, Memory Policy, Pet Peeves) replaces bloated system prompts with surgical 30–80 line personality files. Builders across Claude Code, Hermes, and custom agent stacks are adopting it as the foundation layer.",
-    "url": "https://x.com/heynavtoor/status/2064983805744787839",
+    "title": "Anthropic's 'Loop Engineering' Replaces Traditional Prompt Engineering",
+    "description": "Anthropic's Claude Code team publicly declared they no longer write prompts — they write loops that prompt the model. The new meta: Discover → Act → Verify → Persist → Schedule, with persistent memory files and external verification agents replacing one-shot prompting. This marks a fundamental shift from prompt crafting to agent architecture as the core AI builder skill.",
+    "url": "https://x.com/ChainZenit/status/2073615864721510797",
     "source": "X",
-    "category": "Agent Template"
+    "category": "Agent Engineering"
   },
   {
-    "title": "Parallel Agent Orchestration: One Prompt That Spawns a Team",
-    "description": "Pablo Stanley's parallel agent orchestration template has gone viral—a single meta-prompt that decomposes complex tasks and spawns specialized sub-agents running concurrently. The pattern lets a main agent split work into independent pieces, dispatch them to dedicated /goal agents, and synthesize results. It's rapidly becoming the default architecture for complex coding, research, and content workflows in Claude Code and Hermes communities.",
-    "url": "https://x.com/pablostanley/status/2066230532397310205",
-    "source": "X",
+    "title": "2026: The Year of Agent Swarms — Real Divergence vs Matrix Clones",
+    "description": "The AI agent community draws a sharp line between 'matrices' (same agent template cloned N times) and true 'swarms' where agents develop different specializations through execution. The key challenge in 2026 is orchestration — keeping multi-agent systems robust as they scale and diverge from their original prompts.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r0redn/2026_the_year_of_agent_swarm/",
+    "source": "Reddit",
     "category": "Agent Architecture"
   },
   {
-    "title": "Raw Camera Casting Realism: The System Prompt Fighting AI's Plastic Look",
-    "description": "A hyper-detailed system prompt forcing AI image generators (GPT Image Gen V2, Nano Banana Pro) to produce ultra-believable, unretouched documentary-style portraits with visible pores, vellus hair, uneven skin tone, and natural lighting falloff. 'Straight-out-of-camera realism' has become the dominant aesthetic for builders who want images that don't scream AI-generated. The full prompt includes anti-slop rules explicitly banning airbrushing, poreless skin, and beauty retouching.",
-    "url": "https://x.com/IamEmily2050/status/2073325827610304907",
-    "source": "X",
-    "category": "Image Generation"
-  },
-  {
-    "title": "Stick Figure Doodle Interaction: The Viral AI Photo Trend",
-    "description": "A fresh ChatGPT image trend where photorealistic editorial photos get overlaid with simple black marker stick figure doodles that physically interact with the subject—grabbing hoodies, erasing text, hugging. The prompt template creates humorous, wholesome storytelling shots by combining hyperrealistic photography with hand-drawn marker aesthetics. Variations exploding today include doodles 'helping' with prompt engineering and causing comedic chaos.",
-    "url": "https://x.com/i/status/2073724541399117984",
+    "title": "Viral Stick Figure/Doodle Photo-Bombing Prompt Takes Over AI Feeds",
+    "description": "The hottest AI image trend involves uploading a selfie and having a hand-drawn stick figure physically interact with you in a photorealistic scene. The prompt structure uses meticulous physical description — clothing tension, motion lines, realistic fabric physics — paired with minimalist doodle elements rendered as if drawn directly on the finished photo. Huge engagement on X and Instagram.",
+    "url": "https://x.com/i/status/2073717050787394013",
     "source": "X",
     "category": "Image Prompt"
   },
   {
-    "title": "S.A.M.E. Framework: The Structured Prompt Method for AI Video",
-    "description": "The S.A.M.E. acronym (Scene, Actor, Motion, Edges of Time) has become the go-to structured framework for AI video prompts across Kling, Runway, and Veo. Paired with 10 widely-shared best practices—plain physical descriptions, one camera movement per shot, motivated lighting, and shallow depth of field—it consistently outperforms overloaded one-shot prompts. The community consensus: directing beats perfect first-draft prompting.",
-    "url": "https://x.com/TawohAwa/status/2023024154023493941",
+    "title": "Cinematic 'Good Morning' Viral Social Media Poster Template",
+    "description": "A structured prompt template generating stunning golden-hour sunrise scenes with elegant typography overlays is driving massive engagement for daily social posts. Variations swap in cyberpunk sunrises, cozy cabins, and ocean vistas — all using the same proven composition formula of photorealistic landscape + warm bokeh + centered motivational typography.",
+    "url": "https://x.com/i/status/2073947310955131353",
     "source": "X",
-    "category": "AI Video"
+    "category": "Image Prompt"
   },
   {
-    "title": "Retro Neon Cartoon SREF 2113922359 Dominates Midjourney Feeds",
-    "description": "The most repeated top style on @promptsref blends mid-century American animation, vintage posters, and pop art with bold geometric shapes and highly saturated neon colors. The SREF code produces grainy old-film texture with a mix of childlike charm and dark humor. It's dominating because of instant commercial applicability—music posters, indie game art, streetwear branding, and album covers.",
-    "url": "https://x.com/promptsref/status/2073074385871663348",
+    "title": "Water Park Wipeout: The Ultra-Detailed 3-Panel Narrative Sequence Prompt",
+    "description": "A new class of ultra-structured image prompts forces narrative progression across three panels (fun → chaos → wipeout) in a single 21:9 ultrawide composition. The template uses character reference images, strict composition rules, and explicit 'do not' constraints — producing consistent, high-quality narrative sequences across ChatGPT, Flux, and Ideogram.",
+    "url": "https://x.com/i/status/2073949387147882685",
     "source": "X",
     "category": "Image Generation"
   },
   {
-    "title": "Production-Ready LangGraph Agent Template with Clean Architecture",
-    "description": "An open-source reference architecture for AI agents that brings traditional software engineering patterns—Clean Architecture, proper state management, and testability—to the messy world of LLM API calls and prompt strings. The template solves the prototype-to-production gap by providing ports-and-adapters structure, caching model outputs by prompt version and input hash, and making the agentic framework itself swappable. Already gaining traction in the LangChain community as the starting point for production agents.",
-    "url": "https://www.reddit.com/r/LangChain/comments/1ss1r93/i_built_a_productionready_template_for_ai_agents/",
-    "source": "Reddit",
-    "category": "Agent Engineering"
+    "title": "Shot-by-Shot Timestamped AI Video Prompting Framework Goes Mainstream",
+    "description": "The dominant AI video prompting pattern now uses second-by-second timestamps with explicit camera optics, physics references, and consistency locks. Key innovations: start mid-action to beat the 3-second drop-off, use real lens terminology (35mm, focal breathing), and structure prompts as 'de-prompts' that can remix existing footage. Works across Kling 3.0, Runway, and Luma.",
+    "url": "https://x.com/socialwithaayan/status/2074071449346978100",
+    "source": "X",
+    "category": "AI Video"
   },
   {
-    "title": "1,446 Trending AI Image Prompts Open-Sourced with MCP Server",
-    "description": "A massive open-source 'Awesome' list of 1,446 trending image prompts for GPT Image 2 and NanoBanana, sourced from X trends and organized by category. The dataset includes a companion MCP server for programmatic access, a system prompt for auto-generating more prompts, and live gallery. For AI builders, it's both a ready-to-use prompt library and a reusable skills template pattern—demonstrating how to package curated prompt collections as tools.",
+    "title": "1,446 Trending AI Image Prompts Released as Open Source Dataset with MCP Server",
+    "description": "A massive open-source dataset of 1,446 viral AI image prompts — sourced from X trends, ranked by engagement, and released under CC BY 4.0 — now ships with a companion MCP server for programmatic prompt generation. Includes system prompts tested against GPT Image 2 and NanoBanana, with full JSON metadata: author, likes, model type, and category tags.",
     "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
     "source": "Reddit",
     "category": "Skills Template"
   },
   {
-    "title": "100 Cinematic AI Video Prompts for Kling & Runway That Actually Work",
-    "description": "A curated collection of 100 cinematic AI video prompts built from real product ad production experience on Kling and Runway. Each prompt includes specific camera movements, lighting setups, mood specifications, and the structural lessons the creator wishes existed when they started. The guide has become a reference for video builders who are tired of burning credits on random outputs and want predictable, cinematic results.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1scqub2/made_100_cinematic_ai_video_prompts_sharing_some/",
+    "title": "System Prompt That Turns Any LLM Into a Professional Image Prompt Generator",
+    "description": "After analyzing 1,000+ viral AI image prompts, a ComfyUI builder reverse-engineered a system prompt that makes any LLM node auto-generate pro-level image prompts. The prompt enforces realistic facial features, identity consistency, and cinematic mood descriptors — producing outputs that rival hand-crafted prompts across multiple image models.",
+    "url": "https://www.reddit.com/r/comfyui/comments/1qq55j1/after_analyzing_1000_viral_prompts_i_made_a/",
     "source": "Reddit",
-    "category": "AI Video"
+    "category": "Agent Template"
   },
   {
-    "title": "52 Design Patterns for Building AI Agent Tools: The Reference Manual",
-    "description": "A comprehensive catalog of 52 design patterns covering every aspect of AI agent tool construction—from tool definition and schema design to error handling, composability, and orchestration. This is the reference manual for builders transitioning from prompt engineering to system design, treating agent tools as first-class software components rather than ad-hoc API calls. Already becoming required reading in agent-focused communities.",
-    "url": "https://www.reddit.com/r/LangChain/comments/1r9e5sw/we_cataloged_52_design_patterns_for_building_ai/",
+    "title": "ChatGPT Images 2.0 Prompt Structure That Actually Produces Usable Designs",
+    "description": "A battle-tested prompt structure for ChatGPT Images 2.0 focuses on design constraints over aesthetic adjectives — specifying layout grids, typography rules, and color palettes rather than relying on 'beautiful' or 'stunning'. The template produces consistently usable marketing graphics, posters, and multi-panel storyboards where previous approaches produced beautiful-but-unusable art.",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
     "source": "Reddit",
-    "category": "Agent Pattern"
+    "category": "Image Generation"
+  },
+  {
+    "title": "LLMs as AI Video Prompt Co-Pilots — Stop Writing Prompts, Start Describing Stories",
+    "description": "The emerging workflow for AI video creators: describe your story concept in plain language to an LLM, then have it output a polished, structured prompt with mid-action starts, timestamped shots, and physics constraints. Tools like Zumi and custom GPTs are making this the default pipeline — yielding dramatically better results than manually written prompts across Kling, Runway, and Veo.",
+    "url": "https://x.com/SeharShinwari/status/2073795137738813567",
+    "source": "X",
+    "category": "AI Video"
   }
 ]
