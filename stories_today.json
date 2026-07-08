@@ -1,72 +1,72 @@
 [
   {
-    "title": "Anthropic's 4-Section Prompt Template Goes Viral — The New Default for Agent System Prompts",
-    "description": "Anthropic's structured prompt formula (Identity → Instructions → Examples → Context) is dominating AI builder conversations. The fixed ordering, heavy emphasis on numbered priorities and 'what NOT to do' rules, plus 2–3 strong few-shot examples, consistently outperforms walls of text for classification, extraction, summarization, and customer support agents.",
-    "url": "https://x.com/i/status/2074387704771698754",
+    "title": "The 4-Section Agent System Prompt Template — Identity, Instructions, Examples, Context",
+    "description": "A structured prompt template that mirrors how models process information most reliably. Uses a fixed order — Identity → Instructions → Examples → Context — dramatically improving agent consistency for autonomous workflows. Now the de facto standard among senior AI builders on X.",
+    "url": "https://x.com/i/status/2074471083000951242",
     "source": "X",
     "category": "Agent Template"
   },
   {
-    "title": "Skill Stack Framework: The Shift from One-Shot Prompts to Reusable Agent Skills",
-    "description": "AI builders are moving beyond throwaway prompts to modular, callable 'Skills' — reusable packages with Context, Standards, Workflow, Guardrails, and Examples. Stored as SKILL.md files with YAML frontmatter, these prevent AI tech debt and turn team knowledge into agent infrastructure that can be invoked like internal SOPs.",
-    "url": "https://x.com/i/status/2074111424012734700",
-    "source": "X",
-    "category": "Skills Template"
-  },
-  {
-    "title": "Claude + n8n: Internal Anthropic Agent Architecture Patterns Leaked to the Public",
-    "description": "Anthropic engineers are sharing internal patterns for building production agents with Claude + n8n, covering prompt structure, tool selection, debugging strategies, and evaluation frameworks. The modular skills architecture — where agents load SKILL.md files on demand instead of giant system prompts — is being called the new standard for agent reliability.",
-    "url": "https://x.com/i/status/2074155822200885388",
+    "title": "Loop Engineering: The 2026 Agent Architecture Standard — Plan, Act, Review, Reflect, Retry",
+    "description": "The biggest shift in agent design this year: moving from one-shot vibes to strict OODA-derived loops with verification gates at every step. This architecture combines explicit loop phases with modular skill files, creating agents that self-critique and improve rather than guessing. The consensus is clear — prompt engineering alone is table stakes; loop engineering is the real moat.",
+    "url": "https://x.com/i/status/2074862367280656627",
     "source": "X",
     "category": "Agent Architecture"
   },
   {
-    "title": "Midjourney SREF 2607057524: Animatable 3D Characters Taking Over — 400+ Likes",
-    "description": "This style reference code creates clean, graphic 3D characters with muscular builds, glowing energy effects, and dramatic studio lighting — all optimized for animation in tools like Seedance. The formula uses --v 8.2 --stylize 100-400 with pure white backgrounds and full-body framing for maximum character consistency.",
-    "url": "https://x.com/i/status/2073995403473920051",
+    "title": "Volumetric Cinematic Lighting — The AI Image Style Dominating GPT Image 2 in July 2026",
+    "description": "Heavy volumetric god rays, dense atmospheric fog, warm backlighting, and glowing dust particles — this prompt formula is producing the most viral AI images right now. Works across GPT Image 2, Muse, Flux, and Midjourney with near-identical results. Plug in your subject and the template handles the cinematic heavy lifting.",
+    "url": "https://x.com/iamaiistudio/status/2074385260570349827",
     "source": "X",
     "category": "Image Generation"
   },
   {
-    "title": "SREF 1177061232: European Storybook Style With Warm Cinematic Lighting",
-    "description": "This painterly style reference delivers warm golden-hour lighting, oversized expressive eyes, and nostalgic yet alive character designs perfect for children's books and emotional storytelling. The recipe uses --sref 1177061232 --stylize 500 --v 7 with prompts emphasizing cinematic lighting and handcrafted feel.",
-    "url": "https://x.com/Artedeingenio/status/2074052245583167686",
-    "source": "X",
-    "category": "Image Generation"
-  },
-  {
-    "title": "The Director's Framework: Structured AI Video Prompts That Actually Work Across Kling, Veo, and Runway",
-    "description": "Prompt engineering for AI video is evolving into 'scene direction' — a structured framework covering scene context, timestamped actions, camera + optics, physics + materials, and lighting + atmosphere. The biggest hack: use multiple reference images/videos per scene to avoid the generic 'stock footage' look that text-only prompts produce.",
-    "url": "https://x.com/williamkast_/status/2074256636194226596",
+    "title": "Seedance 2.0 Structured Video Prompt Formula: Shot Type, Subject, Environment, Lighting, Camera",
+    "description": "A repeatable 6-part formula — [Shot Type & Framing], [Subject + Core Action], [Environment & Weather], [Volumetric Lighting & Color], [Camera Movement & Speed], [Technical Specs] — that consistently produces professional AI video across Seedance, Kling, and Runway. Creators report going from 20+ rerolls to 2-3 with this structured approach.",
+    "url": "https://x.com/maxpostingx/status/2074658552208310437",
     "source": "X",
     "category": "AI Video"
   },
   {
-    "title": "SREF 4016710055: Ethereal Holographic Glow — Neon Edges and Cinematic Mysticism",
-    "description": "This trending style reference produces neon edges, misty soft focus, holographic highlights, and retro-futurist spiritual fantasy aesthetics. Perfect for synthwave album covers, cyberpunk character concepts, and tarot-inspired art — use --sref 4016710055 --niji 7 for maximum impact with dramatic volumetric lighting.",
-    "url": "https://x.com/promptsref/status/2074207015988060521",
+    "title": "Skills-First Agent Architecture with Modular .skill Files — The 2026 Power Pattern",
+    "description": "A system where agent capabilities live in separate skill files consulted on-demand rather than dumped into the system prompt. Each skill file encodes senior-level practices, checklists, and quality gates as actionable instructions. Dramatically reduces token bloat while improving reliability — the pattern popularized by production agent builders across Claude Code, Cursor, and n8n ecosystems.",
+    "url": "https://x.com/i/status/2074508747150590167",
     "source": "X",
+    "category": "Skills Template"
+  },
+  {
+    "title": "1,446 Trending AI Image Prompts Open-Sourced — GPT Image 2 & NanoBanana, Plus System Prompt & MCP",
+    "description": "A massive community-curated prompt library with 1,446+ entries sourced from X trends, each including full text, author, likes, model type, and category tags. The GPT Image 2 cut skews toward posters and multi-panel storyboards, while NanoBanana covers portraits and product shots. Ships with companion MCP server for direct integration into agent workflows.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
+    "source": "Reddit",
     "category": "Image Prompt"
   },
   {
-    "title": "Reddit: The Production-Ready Agent Prompt Structure That Actually Survives Real-World Use",
-    "description": "A detailed breakdown of how agent prompting differs fundamentally from chatbot prompting — with a complete production template covering tool calling, error recovery, state management, and human-in-the-loop handoffs. The post argues that most agent failures come from treating agents like chatbots rather than autonomous systems that need explicit failure modes and escalation paths.",
-    "url": "https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/",
+    "title": "The Only n8n AI Agent Prompt Template That Works Every Time — Production-Proven Structure",
+    "description": "A battle-tested system prompt template specifically engineered for n8n AI agent nodes, addressing the unique challenges of agentic prompting in automation environments. Covers tool selection heuristics, error recovery patterns, and structured output formatting that differs fundamentally from chatbot-style prompting.",
+    "url": "https://www.reddit.com/r/n8n/comments/1l9zb4q/the_only_prompt_template_that_made_my_ai_agents/",
     "source": "Reddit",
     "category": "Agent Pattern"
   },
   {
-    "title": "Reddit: 1,542 Viral AI Image Prompts — Ranked by Likes, Open Source, Updated Weekly",
-    "description": "An open-source dataset of 1,542 trending AI image prompts sourced from X, ranked by engagement, with full text, author, likes, views, generated image URLs, model type, and category tags — all in JSON under CC BY 4.0 license. Includes companion MCP server for programmatic access and a live gallery at meigen.ai.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1rkb0ko/1542_viral_ai_image_prompts_ranked_by_likes/",
+    "title": "100 Cinematic AI Video Prompts for Kling & Runway — Tested, Free, and Insanely Effective",
+    "description": "A Redditor spent months developing 100 cinematic prompts that consistently produce high-quality AI video across Kling and Runway. The post includes the full framework for why generic AI video outputs look amateur and how structured cinematic language — camera direction, lighting specs, motion intensity — transforms results.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1scqub2/made_100_cinematic_ai_video_prompts_sharing_some/",
     "source": "Reddit",
-    "category": "Image Prompt"
+    "category": "AI Video"
   },
   {
-    "title": "Reddit: The n8n AI Agent Prompt Template That Finally Works Every Time — No More Hallucinated Tool Calls",
-    "description": "A battle-tested prompt template for n8n AI agents that solves the most common failure mode: hallucinated tool calls and incorrect JSON outputs. The template enforces strict output formatting, explicit tool invocation rules, and mandatory self-verification steps — the creator reports going from 40% to near-100% reliability in production workflows.",
-    "url": "https://www.reddit.com/r/n8n/comments/1l9zb4q/the_only_prompt_template_that_made_my_ai_agents/",
+    "title": "ChatGPT 10-Part Image Prompt Template for Marketing & Cinematic Results",
+    "description": "A structured 10-part framework that controls subject, story, style, lighting, camera, detail, quality, and what to avoid. Designed for marketers who need consistent, brand-quality AI images from ChatGPT — the difference between generic outputs and cinematic, client-ready results comes down to filling every section rather than describing a single 'thing.'",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
     "source": "Reddit",
-    "category": "Agent Engineering"
+    "category": "Marketing AI"
+  },
+  {
+    "title": "Midjourney SREF Code Collection: Cinematic Cyberpunk, Retro Neon Anime & Chiaroscuro Styles",
+    "description": "A curated collection of latest trending Midjourney SREF codes including 3385543246 (cyberpunk/Art Nouveau anime fusion), 24406575 (retro neon cel anime), and 41087 (strong chiaroscuro dramatic lighting). Each code comes with style weight recommendations and optimal subject pairings. Updated daily by the community's leading SREF curator.",
+    "url": "https://x.com/promptsref/status/2074463735595376830",
+    "source": "X",
+    "category": "Image Generation"
   }
 ]
