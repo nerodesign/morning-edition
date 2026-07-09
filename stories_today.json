@@ -1,72 +1,72 @@
 [
   {
-    "title": "The 4-Section Agent System Prompt Template — Identity, Instructions, Examples, Context",
-    "description": "A structured prompt template that mirrors how models process information most reliably. Uses a fixed order — Identity → Instructions → Examples → Context — dramatically improving agent consistency for autonomous workflows. Now the de facto standard among senior AI builders on X.",
-    "url": "https://x.com/i/status/2074471083000951242",
-    "source": "X",
-    "category": "Agent Template"
-  },
-  {
-    "title": "Loop Engineering: The 2026 Agent Architecture Standard — Plan, Act, Review, Reflect, Retry",
-    "description": "The biggest shift in agent design this year: moving from one-shot vibes to strict OODA-derived loops with verification gates at every step. This architecture combines explicit loop phases with modular skill files, creating agents that self-critique and improve rather than guessing. The consensus is clear — prompt engineering alone is table stakes; loop engineering is the real moat.",
-    "url": "https://x.com/i/status/2074862367280656627",
+    "title": "The Skills Paradigm: SKILL.md Replaces Traditional Tool-Calling Across the Agent Ecosystem",
+    "description": "Anthropic's declarative Skills format has exploded across Claude Code, Cursor, and Pi agents in the past 24 hours. Developers are dropping SKILL.md files into folders that agents auto-discover and route to — entire libraries of 50-75+ skills are being open-sourced, with a skill marketplace emerging at openagentskill.com. The consensus: specific, modular skill files outperform monolithic system prompts for both accuracy and maintainability.",
+    "url": "https://x.com/i/status/2075094850018443323",
     "source": "X",
     "category": "Agent Architecture"
   },
   {
-    "title": "Volumetric Cinematic Lighting — The AI Image Style Dominating GPT Image 2 in July 2026",
-    "description": "Heavy volumetric god rays, dense atmospheric fog, warm backlighting, and glowing dust particles — this prompt formula is producing the most viral AI images right now. Works across GPT Image 2, Muse, Flux, and Midjourney with near-identical results. Plug in your subject and the template handles the cinematic heavy lifting.",
-    "url": "https://x.com/iamaiistudio/status/2074385260570349827",
-    "source": "X",
-    "category": "Image Generation"
-  },
-  {
-    "title": "Seedance 2.0 Structured Video Prompt Formula: Shot Type, Subject, Environment, Lighting, Camera",
-    "description": "A repeatable 6-part formula — [Shot Type & Framing], [Subject + Core Action], [Environment & Weather], [Volumetric Lighting & Color], [Camera Movement & Speed], [Technical Specs] — that consistently produces professional AI video across Seedance, Kling, and Runway. Creators report going from 20+ rerolls to 2-3 with this structured approach.",
-    "url": "https://x.com/maxpostingx/status/2074658552208310437",
-    "source": "X",
-    "category": "AI Video"
-  },
-  {
-    "title": "Skills-First Agent Architecture with Modular .skill Files — The 2026 Power Pattern",
-    "description": "A system where agent capabilities live in separate skill files consulted on-demand rather than dumped into the system prompt. Each skill file encodes senior-level practices, checklists, and quality gates as actionable instructions. Dramatically reduces token bloat while improving reliability — the pattern popularized by production agent builders across Claude Code, Cursor, and n8n ecosystems.",
-    "url": "https://x.com/i/status/2074508747150590167",
+    "title": "Reflect-Then-Create: The Meta-Prompt That Auto-Generates SKILL.md Files From Any Conversation",
+    "description": "A viral meta-prompt template — \"Reflect on this conversation and turn the repeatable parts into a reusable SKILL.md file I can drop into my skills folder\" — is gaining massive traction among AI builders. Paired with the Skills paradigm, this creates a self-improving agent loop where every complex task becomes a reusable skill asset. Creators are building libraries of 20-30 specialized modes they swap mid-session.",
+    "url": "https://x.com/i/status/2075206857161875617",
     "source": "X",
     "category": "Skills Template"
   },
   {
-    "title": "1,446 Trending AI Image Prompts Open-Sourced — GPT Image 2 & NanoBanana, Plus System Prompt & MCP",
-    "description": "A massive community-curated prompt library with 1,446+ entries sourced from X trends, each including full text, author, likes, model type, and category tags. The GPT Image 2 cut skews toward posters and multi-panel storyboards, while NanoBanana covers portraits and product shots. Ships with companion MCP server for direct integration into agent workflows.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
-    "source": "Reddit",
+    "title": "Midjourney v8.2 Transparent Technical Autopsy SREF 3307556627 Goes Viral",
+    "description": "A single SREF code (3307556627) is producing stunning transparent autopsy infographics with geometric low-poly designs and vivid industrial coloring — described as adding genuine 'soul' to v8.2 renders. The template fuses infographic labeling, mechanical exploded-view design, and bright vivid palettes via --raw --stylize 300 --preview. Creators are applying it to everything from cybernetic hearts to M134 Miniguns with consistently jaw-dropping results.",
+    "url": "https://x.com/i/status/2074959348250583334",
+    "source": "X",
+    "category": "Image Generation"
+  },
+  {
+    "title": "Footballer National Style SREF 83539355 Dominates Portrait Generation",
+    "description": "A powerful single-code style reference (83539355) is producing instantly recognizable footballer portraits infused with national identity — Messi/Argentina, Salah/Egypt, Haaland/Norway. The SREF delivers exceptionally consistent portrait lighting, skin texture, and cultural aesthetic across every athlete. Low --stylize values (75-300) combined with --preview in v8.2 are the meta right now.",
+    "url": "https://x.com/i/status/2075127821966422361",
+    "source": "X",
     "category": "Image Prompt"
   },
   {
-    "title": "The Only n8n AI Agent Prompt Template That Works Every Time — Production-Proven Structure",
-    "description": "A battle-tested system prompt template specifically engineered for n8n AI agent nodes, addressing the unique challenges of agentic prompting in automation environments. Covers tool selection heuristics, error recovery patterns, and structured output formatting that differs fundamentally from chatbot-style prompting.",
-    "url": "https://www.reddit.com/r/n8n/comments/1l9zb4q/the_only_prompt_template_that_made_my_ai_agents/",
-    "source": "Reddit",
-    "category": "Agent Pattern"
-  },
-  {
-    "title": "100 Cinematic AI Video Prompts for Kling & Runway — Tested, Free, and Insanely Effective",
-    "description": "A Redditor spent months developing 100 cinematic prompts that consistently produce high-quality AI video across Kling and Runway. The post includes the full framework for why generic AI video outputs look amateur and how structured cinematic language — camera direction, lighting specs, motion intensity — transforms results.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1scqub2/made_100_cinematic_ai_video_prompts_sharing_some/",
-    "source": "Reddit",
+    "title": "The Structured Multi-Section Video Prompt: Kling's 15-Second Director Template",
+    "description": "A dense, production-grade prompt structure for Kling AI is trending — breaking shots into explicit sections: Main Subject, Location, Visual Style, Camera Style, Timeline (with compressed beat slots at 3-second intervals), Audio direction, and Goal. Early 2000s camcorder aesthetics with handheld framing, autofocus shifts, and warm grain are the breakout style. Creators report dramatically improved character consistency and motion realism using this template over freeform prompts.",
+    "url": "https://x.com/Strength04_X/status/2074820780853264442",
+    "source": "X",
     "category": "AI Video"
   },
   {
-    "title": "ChatGPT 10-Part Image Prompt Template for Marketing & Cinematic Results",
-    "description": "A structured 10-part framework that controls subject, story, style, lighting, camera, detail, quality, and what to avoid. Designed for marketers who need consistent, brand-quality AI images from ChatGPT — the difference between generic outputs and cinematic, client-ready results comes down to filling every section rather than describing a single 'thing.'",
-    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
-    "source": "Reddit",
-    "category": "Marketing AI"
+    "title": "Agentic Video Directing: Pika Director's Suite + Claude MCP for Consistent Multi-Shot Films",
+    "description": "The biggest shift in AI video this week is agentic workflows — using Pika Director's Suite connected to Claude via MCP to handle storyboarding, character references, batch clip generation, and timeline management. Instruct the agent to split your story into 10-second consistent batches with locked character models, outfits, and lighting. This moves AI video from 'generate a clip' to 'direct a short film' — solving continuity, the #1 pain point.",
+    "url": "https://x.com/beginnersblog1/status/2075090441465205203",
+    "source": "X",
+    "category": "Agent Pattern"
   },
   {
-    "title": "Midjourney SREF Code Collection: Cinematic Cyberpunk, Retro Neon Anime & Chiaroscuro Styles",
-    "description": "A curated collection of latest trending Midjourney SREF codes including 3385543246 (cyberpunk/Art Nouveau anime fusion), 24406575 (retro neon cel anime), and 41087 (strong chiaroscuro dramatic lighting). Each code comes with style weight recommendations and optimal subject pairings. Updated daily by the community's leading SREF curator.",
-    "url": "https://x.com/promptsref/status/2074463735595376830",
-    "source": "X",
+    "title": "20+ Prompts That Actually Work in 2026 — Community-Vetted Prompt Templates",
+    "description": "A Reddit deep-dive compiling 20+ tested prompt techniques with copy-paste templates covering research, coding, creative work, and business analysis. Each template includes the exact prompt text plus the reasoning behind why it works. The collection emphasizes structured frameworks like RACE and COSTAR over generic 'you are an expert' openers, with a strong focus on multi-turn clarification loops for complex problems.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sw6z8q/20_prompts_that_actually_work_in_2026/",
+    "source": "Reddit",
+    "category": "Gen AI"
+  },
+  {
+    "title": "A Free Goldmine of AI Agent Examples, Templates, and Advanced Workflows",
+    "description": "A highly-upvoted Reddit resource aggregating production-ready agent templates, multi-agent workflows, and real-world deployment patterns. The collection spans CrewAI, LangGraph, Claude Code skills, and n8n automation — with 194 upvotes and 47 comments of community additions. Builders are using it as a reference library for bootstrapping agent projects with battle-tested patterns instead of starting from scratch.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1mpptgc/a_free_goldmine_of_ai_agent_examples_templates/",
+    "source": "Reddit",
+    "category": "Agent Template"
+  },
+  {
+    "title": "1,446 Trending AI Image Prompts Open-Sourced — GPT Image 2 & NanoBanana With MCP Server",
+    "description": "An open-source repository of 1,446 high-performing image prompts sourced from X trends, ranked by engagement and refreshed weekly. Includes a companion MCP server (MeiGen) that lets any MCP-compatible agent query and serve prompts on demand. The prompts span multiple AI image models with a browser-based tool for filtering by style, model, and category — particularly useful for programmatic image generation pipelines.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
+    "source": "Reddit",
     "category": "Image Generation"
+  },
+  {
+    "title": "Claude Code + Custom Skills + MCP: The Most Productive Agent Setup in 2026",
+    "description": "A detailed Reddit breakdown naming Claude Code with custom skills and MCP servers as the #1 setup for AI-augmented workflows where humans stay in the loop. The key insight: treat the model like a senior collaborator, not a junior coder — specialized system prompts per task domain crush generic one-size-fits-all approaches. Builders maintaining 20-30 persona 'modes' with swapped system prompts are pulling ahead in both output quality and cost efficiency.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1sfrb3t/what_are_the_best_tools_and_frameworks_for/",
+    "source": "Reddit",
+    "category": "Agent Engineering"
   }
 ]
