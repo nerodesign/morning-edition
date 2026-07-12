@@ -1,72 +1,72 @@
 [
   {
-    "title": "Addy Osmani's 24 Production Agent Skills Pack — Slash Commands, Verification Gates & Anti-Hallucination Loops",
-    "description": "A comprehensive pack of 24 production engineering skills that turn AI agents into disciplined builders — spec writing, task decomposition, verification gates, and anti-rationalization tables. Deploying across 70+ agents including Cursor and Claude Code with slash commands like /spec, /plan, /build, /test, /review, and /ship. The big shift: pure 'prompt engineering' is out — modular skills with embedded verification loops are in.",
-    "url": "https://x.com/AlphaSignalAI/status/2075643166850425117",
-    "source": "X",
-    "category": "Agent Architecture"
-  },
-  {
-    "title": "The 3-Part Agent Identity Prompt: Role → Objective → Output Format for Claude Agents",
-    "description": "A foundational template for creating consistent, scoped AI agents using a structured Role + Rules + Output Format pattern. The prompt enforces Summary → Analysis → Action Items → Next Steps response structure and explicitly prioritizes accuracy over speed with built-in verification requirements. The template is designed to be adapted for any domain by swapping the role and skills.",
-    "url": "https://x.com/meettaqi/status/2075655279950401976",
+    "title": "Universal Structured Agent Prompt Template (Claude-Optimized XML)",
+    "description": "A production-grade prompt template using XML-style tags — role, context, task, tools, rules, and output_format — that dramatically reduces hallucination and orchestration failures in Claude agents. This structured approach is replacing raw chat prompts as the standard for reliable agent behavior in 2026.",
+    "url": "https://x.com/jolyneshibasol/status/2076278729878413647",
     "source": "X",
     "category": "Agent Template"
   },
   {
-    "title": "Multi-Skill Operator Templates: Risk Brief, Financial Stress Test & Devil's Advocate Pre-Mortem",
-    "description": "Battle-tested templates that turn a single agent into a multi-expert system — contract risk analysis, financial stress testing, pre-mortem critiques, and market research handoffs. Each template specifies exact deliverables, constraints, and output formats for real business use cases. The templates emphasize 'explain like I'm smart, not a CFO' clarity and include counter-proposals with every critique.",
-    "url": "https://x.com/BaasElisa/status/2075475624576029162",
+    "title": "Multi-Agent Team Architect: Build Your Complete AI Workforce",
+    "description": "A meta-prompt that designs an entire operating system of specialized AI agents — research, content, marketing, sales, analytics — each with defined roles, KPIs, handoff protocols, and guardrails. Tapping into the growing trend of AI teams over monolithic agents for complex production workflows.",
+    "url": "https://x.com/bruteforcearete/status/2075964493809828347",
     "source": "X",
-    "category": "Agent Pattern"
+    "category": "Agent Architecture"
   },
   {
-    "title": "AGENTS.md: The Persistent Context File That Stops You Repeating Yourself to Every AI Session",
-    "description": "A drop-in project context template (AGENTS.md or .hermes.md) that auto-loads your stack, conventions, architecture, and critical rules into every new agent session. Covers frontend/backend specs, database config, deployment details, coding conventions, and hard constraints in one file. The trend reflects the broader shift from one-shot prompts to persistent context engineering.",
-    "url": "https://x.com/IBuzovskyi/status/2075543353333096840",
+    "title": "61 Ready-to-Use Claude Code Agent Prompts (Agency Agents Repo)",
+    "description": "An open-source collection of 61 battle-tested agent prompts purpose-built for Claude Code, covering coding, research, content creation, and automation workflows. The repo is gaining traction as the go-to starter kit for developers building agentic tooling without starting from scratch.",
+    "url": "https://x.com/chenzeling4/status/2075920343156535402",
+    "source": "X",
+    "category": "Agent Template"
+  },
+  {
+    "title": "Design System Agent Skills: Tokens, Validation & Provenance Tracking",
+    "description": "A new pattern for UI design agents that combines design_intent.md manifests, component token systems, validation layers, and provenance tracking — ensuring AI-generated interfaces stay consistent, auditable, and on-brand across sessions. Essential reading for anyone building design-to-code agent pipelines.",
+    "url": "https://x.com/hakan_ertann/status/2076190884052205985",
     "source": "X",
     "category": "Skills Template"
   },
   {
-    "title": "Viral Graphite Pencil Sketch: Museum-Grade Identity-Locked Portrait Prompt",
-    "description": "A trending identity-preservation prompt that produces hyper-realistic graphite pencil sketches with visible construction lines, cross-hatching, and artistic unfinished details — all while locking the subject's exact facial structure. Working across GPT Image 2, Grok/Flux, and Gemini, the prompt opens with a strict identity-anchoring clause and includes detailed negative prompts. Variations include stippling ink and rose-adorned compositions.",
-    "url": "https://x.com/i/status/2075764490982105508",
+    "title": "80s & 90s Horror Movie Poster Casting — Viral AI Image Prompt",
+    "description": "The #PromptOfTheDay taking over AI art communities: upload 1–4 character reference images and this prompt transforms them into authentic retro horror movie posters (Nightmare on Elm Street, Hellraiser, The Thing) with period-accurate costumes, lighting, and composition. Works with Midjourney --cref, Flux, and GPT Image.",
+    "url": "https://x.com/EvaGlitchAI/status/2076075830728688086",
     "source": "X",
     "category": "Image Generation"
   },
   {
-    "title": "Hollywood Cinematic Editorial: Wet Skin, Water Droplets & Rembrandt Lighting Portrait Prompt",
-    "description": "A high-fashion editorial prompt transforming any selfie into a dramatic cinematic portrait — naturally wet skin, water droplets on sunglasses, low-key Rembrandt lighting, and a fitted black turtleneck against a dark minimalist background. Performs exceptionally well on Grok/Flux and GPT Image models with explicit identity-preservation guardrails and micro-detail specifications for pores, knuckles, and fabric texture.",
-    "url": "https://x.com/i/status/2075550727456367044",
+    "title": "Cyberpunk Y2K Glitch Aesthetic — SREF Code 3138371237",
+    "description": "A trending Midjourney style reference code producing saturated orange-red tones, RGB splits, scanlines, VHS noise, and metallic shine — perfect for album covers, streetwear, and esports posters. SREF-based style transfer is becoming the dominant workflow for consistent aesthetic generation across projects.",
+    "url": "https://x.com/promptsref/status/2076064133447885232",
     "source": "X",
-    "category": "Image Generation"
-  },
-  {
-    "title": "SHOTLINE: Storyboard-Driven AI Video Prompting with Panoramic Blocking Charts",
-    "description": "A pre-visualization technique for AI video that generates panoramic blocking charts mapping entire scenes before writing prompts — characters repeated at key beats with numbered nodes, timecodes, and camera notes embedded in the image. Feeding this chart to an LLM produces timed, segmented prompts that dramatically improve consistency for long takes on Kling, Runway, and Hailuo. Includes character cards, first-frame/last-frame locking, and explicit physics descriptions.",
-    "url": "https://x.com/Iancu_ai/status/2075397925836931089",
-    "source": "X",
-    "category": "AI Video"
-  },
-  {
-    "title": "Structured Video Scene Formula: Subject → Action → Context → Style for Kling & Runway",
-    "description": "A disciplined prompt template enforcing strict ordering — Subject (appearance, clothing, features), Action (one clear movement), Context (3-5 key elements max), and Style (camera, lighting, mood, film references) — to reduce drift and improve coherence in AI video generation. Paired with segment timestamps, explicit camera directions, and heavy negative prompts. The formula is part of a broader toolkit from @creatorslop covering character cards, style anchoring, and multi-shot sequences.",
-    "url": "https://x.com/creatorslop/status/2075927680583917843",
-    "source": "X",
-    "category": "AI Video"
-  },
-  {
-    "title": "1,446 Open-Source Trending AI Image Prompts — GPT Image 2 & NanoBanana Library with MCP Server",
-    "description": "A free GitHub repository containing 1,446+ viral AI image prompts for GPT Image 2 and NanoBanana, all auto-categorized with system prompts and a companion MCP server included. GPT Image 2 entries lean toward posters, typography, and multi-panel storyboards while NanoBanana focuses on portraits and product shots — all in JSON, ranked by likes, and updated weekly under CC BY 4.0 license.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
-    "source": "Reddit",
     "category": "Image Prompt"
   },
   {
-    "title": "Production-Grade Agent Prompt Structure: Stop Chatting, Ship Autonomous Workflows",
-    "description": "A prompt architecture designed for production AI agents that need to move beyond conversational chat into reliable autonomous workflows. The structure enforces modular skill composition, structured output, and verification gates — drawing from real-world production lessons shared across r/AI_Agents and the n8n automation community. The template is part of a 3-post series on the transition from prompt engineering to agent engineering.",
+    "title": "Kling AI Internal Prompting Playbook — 10 Techniques Leaked",
+    "description": "A leaked internal playbook from Kling AI reveals 10 structured prompting rules for cinematic video generation: scene formula ordering, image-to-video motion-only descriptions, the one-move camera rule, depth stacking, element caps, character locking, first/last frame definitions, and negative prompts. The playbook is reshaping how creators approach AI video prompting across Kling, Runway, and Sora.",
+    "url": "https://x.com/creatorslop/status/2075927656311431571",
+    "source": "X",
+    "category": "AI Video"
+  },
+  {
+    "title": "46 Free AI Camera Movement Prompts — Complete Library",
+    "description": "A free resource of 46 copy-paste camera movement prompts organized across 7 categories (Pan/Tilt, Zoom/Lens, Dolly/Track, Drone/Crane, Arc/Orbit, Physical Moves) — designed to eliminate static, amateur-looking AI video. Camera direction is now considered more important than the base subject prompt for producing cinematic results.",
+    "url": "https://x.com/i/status/2076170949624226053",
+    "source": "X",
+    "category": "AI Video"
+  },
+  {
+    "title": "1,446+ Trending AI Image Prompts: GPT Image 2 & NanoBanana Dataset",
+    "description": "An open-source dataset of 1,446 viral AI image prompts complete with author metadata, likes, views, generated image URLs, model type, and category tags — all in JSON under CC BY 4.0. The GPT Image 2 section focuses on posters and typography, while NanoBanana covers portraits and product shots, making it a research-grade resource for prompt engineering.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
+    "source": "Reddit",
+    "category": "Image Generation"
+  },
+  {
+    "title": "Production-Grade AI Agent Prompt Structure: Stop Chatting, Start Building",
+    "description": "A detailed breakdown of the prompt structure real AI agents need to survive in production — moving beyond conversational chat to structured system prompts with tool schemas, state management, error handling, and guardrails. Part of a 3-post series on prompt engineering for autonomous agents that has resonated deeply with the r/AI_Agents community.",
     "url": "https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/",
     "source": "Reddit",
-    "category": "Agent Engineering"
+    "category": "Agent Architecture"
   }
 ]
