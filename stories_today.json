@@ -1,72 +1,72 @@
 [
   {
-    "title": "Context Engineering Replaces Prompt Engineering as the High-Value Skill for 2026",
-    "description": "The AI community is shifting from pure prompt crafting to 'context engineering' — the art of selecting, compressing, ordering, and isolating context for sub-agents. Leading builders argue that prompts get answers but context gets repeatable, production-grade results across long-running agent sessions.",
-    "url": "https://x.com/iambakhtier/status/2076456588722708889",
-    "source": "X",
-    "category": "Agent Engineering"
-  },
-  {
-    "title": "The Advanced 'Operating Manual' Agent System Prompt Goes Open Source",
-    "description": "A model-agnostic system prompt template structured as a rigorous operating manual — with master loops, self-attack protocols, verdict-first output, and epistemic labeling of every claim as COMPUTED, SOURCED, RECALLED, or ASSUMED. Designed to drop directly into AGENTS.md or skill files for production agents that avoid hallucination.",
-    "url": "https://x.com/Av1dlive/status/2076284678257213927",
-    "source": "X",
-    "category": "Agent Pattern"
-  },
-  {
-    "title": "Multi-Skill AI Teams: The 'Org Chart' Pattern for Modular Agents",
-    "description": "Instead of monolithic agent prompts, builders are defining 10–35 specific skills organized like departments in an org chart — Trend Spotting, Deep Research, Writing, SEO, Analytics, Sales. Each skill carries its own description, input/output schema, and trigger conditions, making agents dramatically more reliable at complex multi-step workflows.",
-    "url": "https://x.com/AhsanJaveriya/status/2076659375914291673",
+    "title": "The 4-Layer Agent Architecture: Prompt → Context → Harness → Loop",
+    "description": "A viral framework breaking AI agent engineering into four concentric layers — the prompt is just the innermost ring. The real leverage comes from context management, tool harness design, and autonomous looping with proper stop conditions. This is the blueprint serious agent builders are adopting right now.",
+    "url": "https://x.com/_avichawla/status/2072980277870383366",
     "source": "X",
     "category": "Agent Architecture"
   },
   {
-    "title": "GPT Image 2 High-End Editorial Portrait Templates Take Over X",
-    "description": "Four meticulously crafted 9:16 editorial portrait prompts — Aurora Static, Crimson Offset, Solar Ghost, and Violet Parallax — are going viral for GPT Image 2. Each reads like a professional art director's brief with explicit color palettes, lighting directions, visual effects (RGB split, prism streaks, holographic distortion), and custom editorial typography.",
-    "url": "https://x.com/chenzeling4/status/2076668226306703658",
+    "title": "SOUL.md: The System Personality File Pattern Taking Over Agent Design",
+    "description": "SOUL.md sits at the top of the agent prompt stack — defining who the agent is before any skills, tools, or memory. The pattern specifies 8 sections: identity, core truths, worldview, voice, expertise, boundaries, memory policy, and pet peeves. Specificity here dramatically improves agent consistency across runs.",
+    "url": "https://x.com/DailyDoseOfDS_/status/2070439434781409514",
+    "source": "X",
+    "category": "Agent Template"
+  },
+  {
+    "title": "Autonomous Goal & Loop Engineering: Meta-Prompts That Self-Improve",
+    "description": "The hottest meta-prompt pattern: agents that write their own /goal and /loop structures instead of you doing it manually. Includes clear success criteria, reporting cadence, verification steps, and explicit stop conditions — preventing the infinite loops and context rot that plague production agents.",
+    "url": "https://x.com/aiedge_/status/2071050963843182801",
+    "source": "X",
+    "category": "Agent Engineering"
+  },
+  {
+    "title": "Production-Grade Agent Prompt Structure: Stop Chatting, Start Engineering",
+    "description": "A Reddit deep-dive on the prompt structure real AI agents need to survive in production — beyond the conversational patterns that work in demos. Covers structured output schemas, tool-calling discipline, retry logic, and verification layers. Part of a 3-post series on agent-grade prompting.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/",
+    "source": "Reddit",
+    "category": "Agent Pattern"
+  },
+  {
+    "title": "GPT Image 2 Master Premium Product Advertising Prompt Template",
+    "description": "A 500+ word ultra-premium product shot prompt going viral in the GPT Image 2 community. The template preserves brand packaging exactly while generating luxury commercial campaigns with studio lighting, clean typography, and hyper-real cinematography. Long, structured prompts are crushing it in GPT Image 2.",
+    "url": "https://x.com/i/status/2076501217765896290",
     "source": "X",
     "category": "Image Generation"
   },
   {
-    "title": "46 Camera Movement Prompts: The Missing Piece for Cinematic AI Video",
-    "description": "A free resource cataloging 46 ready-to-copy camera movement prompts across Pan/Tilt, Zoom, Dolly/Track, Drone/Crane, and Arc/Orbit categories is trending among AI video creators. The core insight: adding precise cinematic camera directions (like 'dynamic low-angle orbiting camera with subtle parallax') is the single biggest quality leap between amateur and professional AI-generated video.",
-    "url": "https://x.com/carlosvillu/status/2076170949624226053",
+    "title": "High-End Editorial Portrait Posters: Aurora Static & Color Variant Templates",
+    "description": "A series of experimental editorial portrait poster prompts blowing up for fashion and magazine-style AI imagery. The Aurora Static template uses emerald, teal, and pearl white palettes with aurora light refraction, holographic haze, and transparent geometric overlays. Three color variants extend the formula.",
+    "url": "https://x.com/i/status/2076936142159823151",
     "source": "X",
-    "category": "AI Video"
+    "category": "Image Prompt"
   },
   {
-    "title": "1,446 Open-Source Trending AI Image Prompts Hit GitHub — GPT Image 2 + NanoBanana",
-    "description": "A massive open-source prompt library with 1,446+ trending image prompts, complete with generated image URLs, model types, and category tags — all in JSON under CC BY 4.0. The GPT Image 2 cut leans toward posters, typography, and multi-panel storyboards, while the NanoBanana collection focuses on portraits and product shots often written in structured JSON format.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
+    "title": "1,542 Viral AI Image Prompts Ranked by Likes — Free Open Source Library",
+    "description": "A massive open-source dataset of 1,542 viral AI image prompts, ranked by likes and updated weekly. Each entry includes full prompt text, author, generated image URLs, model type, and category tags — all in JSON under CC BY 4.0. Includes companion MCP server for programmatic access.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1rkb0ko/1542_viral_ai_image_prompts_ranked_by_likes/",
     "source": "Reddit",
     "category": "Image Generation"
   },
   {
-    "title": "20+ Prompts That Actually Work in 2026 — With Free Copy-Paste Templates",
-    "description": "A curated collection of 20 proven prompt techniques for 2026, each with ready-to-copy templates so builders can adapt them immediately. Covers the spectrum from brainstorming and research tasks to structured agent outputs, with an emphasis on templates that produce consistent results rather than one-shot miracles.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sw6z8q/20_prompts_that_actually_work_in_2026/",
+    "title": "The Leaked Kling Internal Playbook: 10 Core Video Prompting Techniques",
+    "description": "A widely-shared breakdown of Kling's internal prompting practices covering the Scene Formula (Subject → Action → Context → Style), the One-Move Rule, depth stacking for camera moves, and mandatory negative prompts. The biggest gains come from treating AI video like filmmaking — storyboard, directed shots, edit — not one-shot magic prompts.",
+    "url": "https://x.com/i/status/2075927607867301991",
+    "source": "X",
+    "category": "AI Video"
+  },
+  {
+    "title": "ChatGPT 10-Part Image Prompt Template for Cinematic, Consistent Results",
+    "description": "A structured 10-part image prompt framework that controls subject, story, style, lighting, camera, detail, quality, and exclusions. The key insight: most prompts fail because they describe a thing, not a shot. This template enforces shot-level thinking and single-variable iteration for reliable outputs.",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
     "source": "Reddit",
     "category": "Skills Template"
   },
   {
-    "title": "Stop Chatting: The Production-Grade Agent Prompt Structure for Real Systems",
-    "description": "A widely-discussed prompt architecture that moves agents beyond chat-style interactions into production reliability. The template defines strict agent identity, tool boundaries, reasoning protocols, and output formatting — designed for agents that must survive in real systems rather than demo environments. Part of a 3-post series on graduating from prompt engineering to agent engineering.",
-    "url": "https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/",
-    "source": "Reddit",
-    "category": "Agent Template"
-  },
-  {
-    "title": "The 10-Part ChatGPT Image Prompt Template for Cinematic Consistency",
-    "description": "A structured 10-part framework for ChatGPT image generation that controls subject, story, style, lighting, camera, detail, quality, and exclusions. The key insight: most prompts fail because they describe a thing, not a shot — this template forces shot-level thinking and has been battle-tested to produce consistent, cinematic results across iterations.",
-    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
-    "source": "Reddit",
-    "category": "Image Prompt"
-  },
-  {
-    "title": "Kling 3.0 vs Veo 3.1 vs Seedance 2.0: 10 Identical Prompts, Honest Benchmarks",
-    "description": "A rigorous head-to-head comparison running the same 10 narrative prompts across Kling 3.0, Veo 3.1, Sora 2, Runway Gen-4, Seedance 2.0, and Pika — with honest scores and qualitative breakdowns. Highlights which models excel at motion realism, prompt adherence, and cinematic quality, serving as both a benchmarking resource and a structured prompt template collection.",
-    "url": "https://www.reddit.com/r/generativeAI/comments/1t01amu/kling_30_vs_veo_31_vs_seedance_20_for_narrative/",
-    "source": "Reddit",
-    "category": "AI Video"
+    "title": "Context Engineering Mastery: Selection, Compression, and Ordering for Agents",
+    "description": "A trending thread codifying context engineering as the discipline that separates toy agents from production systems. Covers relevance ranking, summarization of old turns, eviction of stale data, strategic ordering to avoid 'lost in the middle' failures, and isolation of sub-tasks in separate context windows.",
+    "url": "https://x.com/iambakhtier/status/2076456588722708889",
+    "source": "X",
+    "category": "Agent Engineering"
   }
 ]
