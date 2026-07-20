@@ -1,72 +1,72 @@
 [
   {
-    "title": "Addy Osmani's Agent Skills: 24 Production-Grade AI Agent Capabilities",
-    "description": "Google Chrome engineering lead Addy Osmani open-sourced a professional playbook of 24 real engineering skills for AI coding agents — covering define, plan, build, verify, review, and ship phases. Each skill includes common AI excuses and counter-arguments, turning any agent from junior to senior-level with evidence-based gates. MIT licensed and works across 70+ agents including Claude Code, Cursor, and Windsurf.",
-    "url": "https://x.com/SojkoK/status/2078614104533791022",
+    "title": "Anthropic's 80% System Prompt Cut: The Skills-First Agent Revolution",
+    "description": "Anthropic engineers (Claude Code team) are leading a paradigm shift away from massive monolithic system prompts toward minimal base prompts paired with modular, on-disk Skills files. By cutting system prompts by ~80%, agents perform better with less hand-holding — loading skill context on-demand from a Skills/ directory keeps the context window clean and composable across sessions.",
+    "url": "https://x.com/petergyang/status/2078846124828545179",
     "source": "X",
-    "category": "Agent Template"
+    "category": "Agent Architecture"
   },
   {
-    "title": "The Universal 6-Part Prompt Template Going Viral Across AI Builder Circles",
-    "description": "A clean, reusable 6-part prompt blueprint (Persona, Task, Context, Exemplar, Format, Tone) is being widely bookmarked as the single most reliable template for consistent senior-level AI output. The framework ranks impact as Task > Context > Exemplar > Persona > Format > Tone, and includes a pro tip to lead with strong verbs like 'draft, analyze, build, critique.' Builders report this replaces dozens of one-off prompts.",
-    "url": "https://x.com/AiwithZoaina/status/2078493295504924862",
-    "source": "X",
-    "category": "Agent Engineering"
-  },
-  {
-    "title": "Skill File Template: The New Standard for Reusable Agent Capabilities",
-    "description": "The AI community is shifting from disposable prompts to versioned, testable 'skill files' — structured markdown docs with triggers, success criteria, anti-patterns, step-by-step protocols, and guardrails. This template includes common AI excuses to reject ('Tests passing' without evidence, 'It works on my machine') and is emerging as the standard for Claude, Cursor, and Hermes agent ecosystems. Skills load dynamically and compound over time.",
-    "url": "https://x.com/closermethod/status/2078508778002026550",
+    "title": "Ruben Hassid's Free Meta-Prompting Skill Library Goes Viral",
+    "description": "A collection of self-improving slash-command skills including /prompt-master (brain-dump to structured task), /grill-me (zero-ambiguity self-interrogation), and /write-a-skill (turn repeated work into persistent skill files) is dominating AI builder discourse. The library treats skills as persistent muscle memory — small, composable files that improve over sessions.",
+    "url": "https://x.com/rubenhassid/status/2079068789480534200",
     "source": "X",
     "category": "Skills Template"
   },
   {
-    "title": "Production-Grade Agent Prompt Structure That Survives in the Wild",
-    "description": "A deeply practical Reddit breakdown of the prompt architecture real AI agents need to survive production — not chat demos. The template covers input validation, tool routing, error recovery, state management, and output formatting gates that prevent agents from hallucinating or looping. Part of an open-source course on prompting engineering for agent automation, with full GitHub examples.",
+    "title": "The AI Agent Delegation Pack: 5 Templates for Clean Handoffs",
+    "description": "A trending field kit of 5 delegation templates — including owner, goal/exit condition, boundaries, run budget, and escalation triggers — designed to make agent-to-agent and agent-to-human handoffs reliable. The completion receipt pattern ensures every delegated task returns verifiable evidence of what was done, what remains, and what went wrong.",
+    "url": "https://x.com/hikariraina/status/2078778099236524103",
+    "source": "X",
+    "category": "Agent Template"
+  },
+  {
+    "title": "Stop Chatting: The Prompt Structure Real AI Agents Need to Survive Production",
+    "description": "A highly-upvoted Reddit deep-dive arguing that production AI agents need rigid, schema-enforced prompt structures — not free-form chat. The author provides a public GitHub repo with real-world templates covering state management, tool routing, error recovery, and output validation, moving beyond hobbyist chatbot patterns into deployment-grade agent engineering.",
     "url": "https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/",
     "source": "Reddit",
     "category": "Agent Pattern"
   },
   {
-    "title": "Kling AI Character Consistency Framework: Reusable Assets & Camera Language",
-    "description": "A comprehensive framework for building consistent multi-shot AI videos using Kling 3.0 Omni and similar tools. The method teaches creators to generate dedicated character reference sheets and set images first, then prompt only for motion and performance — eliminating face swaps, clothing drift, and set changes. Includes a library of precise camera moves (crash zooms, drone pull-backs, handheld swings) that escape the generic 'AI video' look.",
-    "url": "https://x.com/SteveGatena/status/2078537259205448138",
-    "source": "X",
-    "category": "AI Video"
-  },
-  {
-    "title": "Hyper-Realistic Editorial Photoshoot Prompt Template",
-    "description": "The most viral image generation style this week: ultra-detailed fashion editorial prompts that pair a character reference with obsessive outfit consistency, golden-hour lighting, and 85mm DSLR camera specs. The template includes field-by-field instructions for model identity, wardrobe locks, location authenticity (real places with local signage), and filmic post-processing language. Works across Flux 2 Klein, Ideogram 4.0, and GPT Image 2.",
-    "url": "https://x.com/FloyoAI/status/2078511660017516873",
+    "title": "9 ChatGPT Image Prompt Patterns That Actually Work in 2026",
+    "description": "A curated set of 9 reusable prompt patterns — from 'phone snapshot realism' and 'cinematic product ads' to 'explainer comics' and 'educational infographics' — that consistently produce high-quality results with the latest ChatGPT image generation. Each pattern emphasizes specificity in style, lighting, and composition while staying concise enough to iterate rapidly.",
+    "url": "https://x.com/i/status/2079099765493469618",
     "source": "X",
     "category": "Image Generation"
   },
   {
-    "title": "Surreal Cinematic Hybrid Prompt Bracket: The Viral Community Game",
-    "description": "A 'prompt bracket' format sweeping AI art communities where creators mix surreal hybrid beings (teal rhino-fox, steampunk rocket pilot, demonic porcelain doll jester) with impossible actions (conducting an orchestra of flying cars, baking pies inside a black hole). The template combines cinematic 8K language, volumetric lighting, and shallow depth of field for god-tier surreal outputs on Flux and Grok. The doll-face transformation variant is currently the most remixed style.",
-    "url": "https://x.com/darthjav/status/2078574938118930833",
-    "source": "X",
-    "category": "Image Prompt"
-  },
-  {
-    "title": "1,542 Viral AI Image Prompts Ranked by Likes — Free & Open Source",
-    "description": "An open-source repository updated weekly with 1,542+ viral AI image prompts ranked by community likes, each including full prompt text, author, generated image URLs, model type, and category tags in structured JSON. CC BY 4.0 licensed with an accompanying MCP server for programmatic access. Featured in Awesome Prompt Engineering (5.5k stars) and used as a study resource for what makes image prompts actually work.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1rkb0ko/1542_viral_ai_image_prompts_ranked_by_likes/",
-    "source": "Reddit",
-    "category": "Image Generation"
-  },
-  {
-    "title": "10-Part ChatGPT Image Prompt Template for Cinematic, Consistent Results",
-    "description": "A battle-tested 10-part framework for image prompts that controls subject, story, style, lighting, camera, detail, quality, and exclusions — not just describing 'a thing' but composing 'a shot.' The template is designed for iteration: fill each line, then refine one block at a time. Builders report this single framework bridges the gap between 'bad AI images' and cinematic, production-ready results on ChatGPT and GPT Image 2.",
+    "title": "The 10-Part ChatGPT Image Prompt Template for Cinematic Results",
+    "description": "A Reddit-famous framework that breaks image prompts into 10 distinct layers: subject, story, style, lighting, camera, detail, quality, and what to avoid. The technique forces users to think like cinematographers — describing a shot, not just a thing — and has become the go-to template for anyone struggling to get consistent, usable AI images out of ChatGPT.",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
     "source": "Reddit",
     "category": "Image Prompt"
   },
   {
-    "title": "PromptCreek: 500+ Free AI Prompt Templates and Agent Skills Directory",
-    "description": "A completely free, no-paywall alternative to AIPRM and PromptBase with 500+ prompt templates and 1,000+ agent skills — all categorized and searchable. Built in frustration at paid prompt marketplaces, the directory covers image generation, coding agents, marketing copy, research workflows, and multi-agent orchestration. Includes community contribution features and an agent skills taxonomy.",
-    "url": "https://www.reddit.com/r/SideProject/comments/1s8o8gh/i_built_a_completly_free_ai_prompt_library_with/",
+    "title": "1,542 Viral AI Image Prompts Ranked by Likes — Free and Open Source",
+    "description": "A massive open-source dataset of 1,542 trending AI image prompts — complete with full text, author, likes, views, generated image URLs, model type, and category tags — updated weekly. The repo includes a companion MCP server for programmatic access and has been featured in Awesome Prompt Engineering (5.5k GitHub stars).",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1rkb0ko/1542_viral_ai_image_prompts_ranked_by_likes/",
     "source": "Reddit",
-    "category": "Skills Template"
+    "category": "Image Generation"
+  },
+  {
+    "title": "The Viral AR Music Visual Trend: Dreamlike Spotify/Apple Music Interface Cards",
+    "description": "A cinematic, dreamlike AR prompt generating photorealistic portraits surrounded by floating 3D music interface cards is spreading rapidly across AI art communities. The prompt creates a mixed-reality aesthetic — cards orbit the subject at varying depths with some in the foreground obscuring the figure — producing album-cover-quality results that have dominated image generation feeds.",
+    "url": "https://www.reddit.com/r/ImagineAiArt/comments/1shic17/everyone_is_generating_this_viral_ai_image_trend/",
+    "source": "Reddit",
+    "category": "Image Prompt"
+  },
+  {
+    "title": "The Director's Mindset: Why Vague AI Video Prompts Are Dead in 2026",
+    "description": "Top AI video creators are abandoning generic prompts and adopting a multi-role workflow — acting as Director (visual tone), Scriptwriter (narrative), Prompt Engineer (technical specs), and Editor (pacing) simultaneously. The biggest 2026 mistake is generating random clips hoping they'll edit well; winners plan the full story first, then layer in film terminology like dolly zooms, golden-hour volumetric lighting, and anamorphic lens specs.",
+    "url": "https://x.com/i/status/2078827258400379337",
+    "source": "X",
+    "category": "AI Video"
+  },
+  {
+    "title": "Seamless Single-Take AI Video: The Ultra-Slow Motion Nostalgic 90s Technique",
+    "description": "A detailed prompt template for creating continuous single-take AI videos with no cuts, fades, or dialogue changes — using only physical camera movements (pushing past foreground objects, tracking subjects through doorways) to transition between scenes. The technique pairs ultra-slow motion with a nostalgic 90s visual aesthetic and is being widely adopted for Kling 3.0 and Runway Gen-3 productions.",
+    "url": "https://x.com/ou_zhen599/status/2078920201085845703",
+    "source": "X",
+    "category": "AI Video"
   }
 ]
