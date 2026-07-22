@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — Wednesday, 22 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,700;14..32,900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:18px}
+body{font-family:'Inter',system-ui,sans-serif;line-height:1.5;color:#1a1a1a;background:#f8f5f0;overflow-x:hidden}
+h1,h2,h3,.fraunces{font-family:'Fraunces',Georgia,serif}
+
+/* MASTHEAD */
+.masthead{padding:3rem 2rem 1.5rem;text-align:center;border-bottom:3px double #1a1a1a;margin-bottom:0}
+.masthead .tag{font-family:'Inter';font-size:0.7rem;letter-spacing:0.35em;text-transform:uppercase;color:#8b4513;margin-bottom:0.5rem}
+.masthead h1{font-size:clamp(2.5rem,8vw,6rem);font-weight:900;line-height:0.95;letter-spacing:-0.03em}
+.masthead .dateline{font-size:0.8rem;color:#666;letter-spacing:0.2em;text-transform:uppercase;margin-top:0.8rem}
+.masthead .subtitle{font-size:1rem;color:#444;max-width:600px;margin:1rem auto 0;font-weight:300}
+
+/* SPREAD COMMONS */
+.spread{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:4rem 2rem;position:relative;overflow:hidden}
+.spread-inner{max-width:1100px;width:100%;position:relative;z-index:2}
+.numeral{font-family:'Fraunces',serif;font-size:clamp(6rem,15vw,16rem);font-weight:900;line-height:0.75;position:absolute;opacity:0.06;user-select:none;pointer-events:none;z-index:1}
+.story-title{font-family:'Fraunces',serif;font-size:clamp(2rem,5vw,4rem);font-weight:700;line-height:1.05;letter-spacing:-0.02em;margin-bottom:1.5rem}
+.story-meta{font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:0.8rem;font-weight:500}
+.story-desc{font-size:1.1rem;line-height:1.7;max-width:650px;margin-bottom:1.5rem}
+.story-link{display:inline-block;font-family:'Inter';font-weight:700;font-size:0.85rem;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;padding-bottom:2px;border-bottom:2px solid;transition:all 0.2s}
+.story-link:hover{opacity:0.7;padding-bottom:4px}
+
+/* 1. HERO */
+.s1{background:#111;color:#fff}
+.s1 .numeral{color:#fff;opacity:0.05;font-size:clamp(8rem,22vw,22rem);right:0;top:50%;transform:translateY(-50%)}
+.s1 .story-title{font-size:clamp(2.8rem,7vw,5.5rem);font-weight:900}
+.s1 .story-link{color:#fff;border-color:#fff}
+
+/* 2. MIDNIGHT */
+.s2{background:#0a0a10;color:#e0e0e0;background-image:radial-gradient(ellipse at 30% 20%,rgba(30,60,255,0.08) 0%,transparent 60%)}
+.s2 .numeral{color:#3050ff;opacity:0.08;left:10%;top:20%}
+.s2 .story-title{color:#fff}
+.s2 .story-meta{color:#3050ff}
+.s2 .story-link{color:#3050ff;border-color:#3050ff}
+
+/* 3. ROSE STAMP */
+.s3{background:#fff5f5}
+.s3 .stamp{position:absolute;right:3rem;top:3rem;border:4px solid #e53e3e;color:#e53e3e;padding:0.5rem 1.5rem;font-family:'Inter';font-weight:900;font-size:0.85rem;letter-spacing:0.15em;text-transform:uppercase;transform:rotate(8deg);z-index:3;opacity:0.85}
+.s3 .numeral{color:#e53e3e;opacity:0.05;right:0;bottom:0}
+.s3 .story-title{color:#1a1a1a}
+.s3 .story-link{color:#e53e3e;border-color:#e53e3e}
+
+/* 4. TERMINAL */
+.s4{background:#0c0c0c;font-family:'SF Mono','Fira Code','Cascadia Code',monospace;color:#00ff41}
+.s4 .story-title{font-family:'SF Mono','Fira Code',monospace;font-size:clamp(1.5rem,3.5vw,2.8rem);font-weight:400}
+.s4 .story-title::before{content:'$ ';color:#666}
+.s4 .story-meta{color:#0a0;font-family:monospace}
+.s4 .story-desc{font-family:'SF Mono','Fira Code',monospace;color:#0c0;font-size:0.95rem;max-width:700px}
+.s4 .story-link{font-family:monospace;color:#00ff41;border-color:#00ff41;border-bottom-style:dashed}
+.s4 .numeral{font-family:monospace;color:#00ff41;opacity:0.04;right:5%;top:50%;transform:translateY(-50%)}
+
+/* 5. ACADEMIC */
+.s5{background:#fefae0;color:#3c2415;background-image:linear-gradient(to bottom,transparent 39px,#d4c5a0 39px,#d4c5a0 40px,transparent 40px);background-size:100% 40px}
+.s5 .story-title{font-weight:400;font-style:italic}
+.s5 .story-title::first-letter{font-size:clamp(3.5rem,8vw,6rem);float:left;line-height:0.7;padding-right:0.3rem;font-weight:900;font-style:normal;color:#8b4513}
+.s5 .story-desc{text-align:justify;font-size:1.05rem}
+.s5 .story-link{color:#8b4513;border-color:#8b4513}
+.s5 .numeral{color:#8b4513;opacity:0.04;left:5%;top:10%}
+
+/* 6. MANIFESTO */
+.s6{background:#000;color:#fff}
+.s6 .story-inner{border-left:6px solid #e53e3e;padding-left:3rem}
+.s6 .story-title{font-size:clamp(2rem,5vw,3.5rem);font-weight:900;text-transform:uppercase}
+.s6 .story-meta{color:#e53e3e}
+.s6 .story-link{color:#e53e3e;border-color:#e53e3e}
+.s6 .numeral{color:#e53e3e;opacity:0.06;right:5%;bottom:5%}
+
+/* 7. EDITORIAL */
+.s7{background:#f4f1ea;color:#1a1a1a}
+.s7 .spread-inner{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.s7 .col-right{border-left:1px solid #ccc;padding-left:3rem}
+.s7 .story-title{font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:600}
+.s7 .story-desc{text-align:justify;column-count:2;column-gap:1.5rem}
+.s7 .story-link{color:#1a1a1a;border-color:#1a1a1a}
+.s7 .numeral{color:#1a1a1a;opacity:0.03;right:10%;bottom:10%}
+@media(max-width:768px){.s7 .spread-inner{grid-template-columns:1fr}.s7 .col-right{border-left:0;padding-left:0;border-top:1px solid #ccc;padding-top:2rem}}
+
+/* 8. BIG STAT */
+.s8{background:#fff;color:#1a1a1a}
+.s8 .big-num{font-family:'Fraunces',serif;font-size:clamp(8rem,20vw,18rem);font-weight:900;line-height:0.8;margin-bottom:0.5rem}
+.s8 .story-title{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:600}
+.s8 .story-desc{max-width:500px}
+.s8 .story-link{color:#1a1a1a;border-color:#1a1a1a}
+
+/* 9. BRUTALIST */
+.s9{background:#fff;font-family:monospace;color:#000;border:8px solid #000;margin:0}
+.s9 *{font-family:monospace}
+.s9 .story-title{font-weight:700;border-bottom:2px solid #000;display:inline-block;padding-bottom:0.3rem}
+.s9 .story-meta{color:#666}
+.s9 .story-link{color:#000;border-color:#000;border-bottom-style:solid}
+.s9 .numeral{opacity:0.03;color:#000}
+
+/* 10. FINALE */
+.s10{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 40%,#0f3460 70%,#533483 100%);color:#fff;text-align:center}
+.s10 .story-title{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:300;letter-spacing:0.05em}
+.s10 .story-desc{font-size:1.2rem;font-weight:300;opacity:0.8}
+.s10 .story-link{color:#fff;border-color:rgba(255,255,255,0.4)}
+.s10 .numeral{opacity:0.04;color:#fff;left:50%;top:50%;transform:translate(-50%,-50%);font-size:clamp(12rem,30vw,30rem)}
+
+/* COLOPHON */
+.colophon{padding:3rem 2rem;text-align:center;background:#111;color:#666;font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase}
+.colophon a{color:#999;text-decoration:none;border-bottom:1px solid #444}
+.colophon a:hover{color:#fff}
+
+/* INDEX NAV */
+.issue-nav{padding:1.5rem 2rem;text-align:center;background:#fff;border-bottom:1px solid #eee;font-size:0.8rem}
+.issue-nav a{color:#1a1a1a;text-decoration:none;margin:0 0.5rem;border-bottom:1px solid #ddd}
+.issue-nav a:hover{border-color:#1a1a1a}
+
+@media(max-width:600px){
+  .spread{padding:2rem 1rem;min-height:auto}
+  .story-title{font-size:clamp(1.5rem,6vw,2.5rem)}
+  .story-desc{font-size:0.95rem}
+}
+</style>
+</head>
+<body>
+
+<!-- MASTHEAD -->
+<header class="masthead">
+<div class="tag">The Daily Briefing for AI Builders</div>
+<h1>MORNING<br>EDITION</h1>
+<div class="dateline">Wednesday, 22 July 2026</div>
+<div class="subtitle">10 trending prompts, templates & agent patterns — curated from X and Reddit, designed for your stack.</div>
+</header>
+
+<!-- SPREADS -->
+<section class="spread s1">
+<span class="numeral">01</span>
+<div class="spread-inner">
+<div class="story-meta">X &mdash; Agent Template</div>
+<h2 class="story-title">The Ultimate Agent Skills Starter Pack — Frontend, Design &amp; Testing Skills That Actually Work</h2>
+<p class="story-desc">A curated pack of production-grade agent skills (frontend-skill, web-design-guidelines, playwright, figma-implement-design) is going viral on X. These aren&#x27;t generic &#x27;you are a helpful assistant&#x27; prompts — they&#x27;re opinionated, battle-tested system instructions that turn LLMs into domain experts for frontend architecture, UI review, and browser testing. The post includes recommended skill combinations for different use cases like brand pages, product UI, and testing loops.</p>
+<a class="story-link" href="https://x.com/i/status/2079515649185898809" target="_blank" rel="noopener">View Source &rarr;</a>
+</div>
+</section>
+<section class="spread s2">
+<span class="numeral">02</span>
+<div class="spread-inner">
+<div class="story-meta">Reddit &mdash; Agent Architecture</div>
+<h2 class="story-title">SOUL.md: The Identity Layer That Makes AI Agents Consistent and Predictable</h2>
+<p class="story-desc">The SOUL.md pattern — a 30-80 line identity file sitting above skills, memory, and tools — is the hottest agent architecture discussion this week. It defines an agent&#x27;s core truths, worldview, voice, expertise, and pet peeves with high specificity. Layered as SOUL.md → Skills → Memory → Tools → Policies, this approach is being adopted across Hermes, OpenClaw, and Claude Code agents for dramatically more consistent behavior.</p>
+<a class="story-link" href="https://www.reddit.com/r/AIAgentsInAction/comments/1tuvhvq/the_soulmd_template_behind_my_hermes_agent_never/" target="_blank" rel="noopener">Open Thread &rarr;</a>
+</div>
+</section>
+<section class="spread s3">
+<span class="stamp">TRENDING</span>
+<span class="numeral">03</span>
+<div class="spread-inner">
+<div class="story-meta">X &mdash; Image Generation</div>
+<h2 class="story-title">GPT Image 2 Editorial Doodle Template — The #1 Trending Image Style This Week</h2>
+<p class="story-desc">A simple hand-drawn doodle illustration prompt for GPT Image 2 has exploded across X, producing airy magazine-style sketches from real photos. The secret is in the anti-AI language: &#x27;wobbly lines,&#x27; &#x27;hand-drawn imperfections,&#x27; &#x27;slightly open contours,&#x27; and &#x27;avoid clean vector graphics.&#x27; Works beautifully on portraits and couple photos with customizable accent colors like sky blue, terracotta, or sage green.</p>
+<a class="story-link" href="https://x.com/oggii_0/status/2079455201896075492" target="_blank" rel="noopener">See Prompt &rarr;</a>
+</div>
+</section>
+<section class="spread s4">
+<span class="numeral">04</span>
+<div class="spread-inner">
+<div class="story-meta">X &mdash; AI Video</div>
+<h2 class="story-title">Character Bible + Storyboard Pipeline: The End-to-End AI Video Workflow Taking Over</h2>
+<p class="story-desc">Creators are abandoning one-shot text-to-video for a structured pipeline: Character Bible → Storyboard → Consistent Stills → Image-to-Video with subtle motion. This thread walks through building detailed character reference sheets with locked facial features, using an LLM-generated professional storyboard from a meta-prompt, and then animating each frame with &#x27;subtle natural motion only&#x27; instructions. Identity drift is the enemy — this workflow kills it.</p>
+<a class="story-link" href="https://x.com/VigoCreativeAI/status/2079404223846850841" target="_blank" rel="noopener">cat prompt.txt &rarr;</a>
+</div>
+</section>
+<section class="spread s5">
+<span class="numeral">05</span>
+<div class="spread-inner">
+<div class="story-meta">X &mdash; Image Prompt</div>
+<h2 class="story-title">Hybrid-Frequency Optical Illusion Prompt — One Image, Two Subjects at Different Distances</h2>
+<p class="story-desc">A mind-bending prompt template generates images where one subject appears at arm&#x27;s length and a completely different subject emerges at ten paces. The technique renders one concept entirely in high-frequency information (fine lines, edge detail) and another in low-frequency information (broad mass, tonal blocks), occupying the same pixels. No mid-tones allowed — the viewer experiences a &#x27;moment of nothing&#x27; in the crossover zone.</p>
+<a class="story-link" href="https://x.com/Gdgtify/status/2079899007741284758" target="_blank" rel="noopener">Read Full Thread &rarr;</a>
+</div>
+</section>
+<section class="spread s6">
+<span class="numeral">06</span>
+<div class="spread-inner">
+<div class="story-inner">
+<div class="story-meta">Reddit &mdash; Skills Template</div>
+<h2 class="story-title">177 SOUL.md Templates Organized into 24 Categories — Free and Open Source</h2>
+<p class="story-desc">A community member has curated and organized 177 ready-to-use SOUL.md agent personality templates across 24 categories, all free and open source. From Code Architect to Creative Director to Patient Tutor, these templates provide the identity backbone that modern AI agents need for consistent, predictable behavior. The post includes lessons learned about what makes a SOUL.md actually effective vs. just verbose.</p>
+<a class="story-link" href="https://www.reddit.com/r/openclaw/comments/1rzt9ba/i_organized_177_soulmd_templates_into_24/" target="_blank" rel="noopener">View Template &rarr;</a>
+</div>
+</div>
+</section>
+<section class="spread s7">
+<span class="numeral">07</span>
+<div class="spread-inner">
+<div class="col-left">
+<div class="story-meta">Reddit</div>
+<h2 class="story-title">1,446 Trending AI Image Prompts — Open Source Library with MCP Server Included</h2>
+</div>
+<div class="col-right">
+<p class="story-desc">An open-source repository containing 1,446 viral AI image prompts ranked by likes and updated weekly has hit the front page of r/PromptEngineering. The dataset includes full prompt text, author, generated image URLs, model type, and category tags — all in JSON under CC BY 4.0. A companion MCP server lets you query the library programmatically, making it a powerful resource for studying what makes image prompts actually work.</p>
+<a class="story-link" href="https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/" target="_blank" rel="noopener">Read More &rarr;</a>
+<p style="font-family:monospace;font-size:0.65rem;color:#999;margin-top:1rem;text-transform:uppercase;letter-spacing:0.1em">Image Prompt</p>
+</div>
+</div>
+</section>
+<section class="spread s8">
+<span class="numeral">08</span>
+<div class="spread-inner">
+<div class="big-num">08</div>
+<div class="story-meta">Reddit &mdash; Image Generation</div>
+<h2 class="story-title">The 10-Part Image Prompt Template That Finally Delivers Cinematic Results</h2>
+<p class="story-desc">A Reddit user cracked the code on consistent, cinematic AI images with a 10-part framework covering subject, story, style, lighting, camera, detail, quality, and negative constraints. The key insight: most prompts fail because they describe a thing, not a shot. This template forces you to think like a cinematographer — fill each line, then iterate one block at a time for dramatically better results across GPT Image 2, Midjourney, and Flux.</p>
+<a class="story-link" href="https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/" target="_blank" rel="noopener">Get Prompt &rarr;</a>
+</div>
+</section>
+<section class="spread s9">
+<span class="numeral">09</span>
+<div class="spread-inner">
+<div class="story-meta">Reddit // Agent Engineering</div>
+<h2 class="story-title">Stop Chatting — The Production-Grade Prompt Structure Real AI Agents Need</h2>
+<p class="story-desc">A detailed breakdown of the layered prompt architecture required for AI agents to survive in production environments. Moving beyond simple &#x27;system prompts,&#x27; this framework covers identity layers, skill composition, memory management, tool policies, and runtime guardrails. The post includes a public GitHub repo with real examples and argues that most agent failures come from under-specified prompt architecture, not model limitations.</p>
+<a class="story-link" href="https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/" target="_blank" rel="noopener">[ OPEN ]</a>
+</div>
+</section>
+<section class="spread s10">
+<span class="numeral">10</span>
+<div class="spread-inner">
+<div class="story-meta" style="opacity:0.6">Reddit &mdash; AI Video</div>
+<h2 class="story-title">Decouple and Composite: The Gold Standard AI Video Character Consistency Workflow</h2>
+<p class="story-desc">A Reddit deep-dive into the &#x27;Decouple and Composite&#x27; strategy for nail-down character consistency in AI video. The workflow rigidly separates still image generation (for identity lock) from motion generation (for animation), then composites the results. Combined with a Character Bible approach — fixed face references, age, lighting, camera distance — this is becoming the industry standard for anyone serious about multi-shot AI filmmaking with Veo, Kling, and Runway.</p>
+<a class="story-link" href="https://www.reddit.com/r/generativeAI/comments/1rpqydv/my_personal_workflow_for_nailing_ai_video/" target="_blank" rel="noopener">Explore &rarr;</a>
+</div>
+</section>
+
+<!-- COLOPHON -->
+<footer class="colophon">
+<p>Morning Edition · Published daily at 7am AWST · Curated by <a href="https://github.com/nerodesign/morning-edition">StudioOps</a></p>
+<p>Sources: <a href="https://x.com">X (Twitter)</a> · <a href="https://reddit.com">Reddit</a> · All prompts link to original posts</p>
+<p style="margin-top:0.5rem;color:#444">Built with Fraunces & Inter · 2026-07-22 23:58 UTC</p>
+</footer>
+</body>
+</html>

@@ -1,72 +1,72 @@
 [
   {
-    "title": "SOUL.md: The New Identity Layer Taking Over AI Agents",
-    "description": "The 'one prompt to rule them all' era is dead. SOUL.md defines an immutable agent identity — personality, worldview, voice, and boundaries — in a 30-80 line file that sits above all skills and tools. Combined with modular SKILL.md libraries, this two-layer architecture is now the dominant pattern for production agents, with community forks and skill packs exploding across GitHub.",
-    "url": "https://x.com/BIGMayrr/status/2079515649185898809",
+    "title": "The Ultimate Agent Skills Starter Pack — Frontend, Design & Testing Skills That Actually Work",
+    "description": "A curated pack of production-grade agent skills (frontend-skill, web-design-guidelines, playwright, figma-implement-design) is going viral on X. These aren't generic 'you are a helpful assistant' prompts — they're opinionated, battle-tested system instructions that turn LLMs into domain experts for frontend architecture, UI review, and browser testing. The post includes recommended skill combinations for different use cases like brand pages, product UI, and testing loops.",
+    "url": "https://x.com/i/status/2079515649185898809",
     "source": "X",
     "category": "Agent Template"
   },
   {
-    "title": "The 6 Core Agent Patterns Every Builder Should Know",
-    "description": "From Prompt Chaining to full Autonomous Agents, these six patterns define the current agent workflow landscape. The Orchestrator-Workers pattern is the most practical for production right now — a lead agent breaks down tasks, delegates to specialized skills, and synthesizes results. Most 'agents' in the wild are patterns 1-5 with strong error handling; true autonomy remains expensive and risky.",
-    "url": "https://x.com/Ryan95322865/status/2079124401950265731",
-    "source": "X",
+    "title": "SOUL.md: The Identity Layer That Makes AI Agents Consistent and Predictable",
+    "description": "The SOUL.md pattern — a 30-80 line identity file sitting above skills, memory, and tools — is the hottest agent architecture discussion this week. It defines an agent's core truths, worldview, voice, expertise, and pet peeves with high specificity. Layered as SOUL.md → Skills → Memory → Tools → Policies, this approach is being adopted across Hermes, OpenClaw, and Claude Code agents for dramatically more consistent behavior.",
+    "url": "https://www.reddit.com/r/AIAgentsInAction/comments/1tuvhvq/the_soulmd_template_behind_my_hermes_agent_never/",
+    "source": "Reddit",
     "category": "Agent Architecture"
   },
   {
-    "title": "\"Royal Deck\" — The Prompt of the Day Turning Characters Into Luxury Playing Cards",
-    "description": "Built by @Feladrael and shared via @EvaGlitchAI, this hyper-detailed prompt transforms any character reference sheet into a complete luxury collector's playing card deck — custom suits, symmetrical card backs, King/Queen/Joker variants, and a premium embossed tuck box. The prompt includes explicit gender-mapping rules, negative instructions, and studio photography specs. It's a masterclass in structured image prompting.",
-    "url": "https://x.com/EvaGlitchAI/status/2079361441040347302",
+    "title": "GPT Image 2 Editorial Doodle Template — The #1 Trending Image Style This Week",
+    "description": "A simple hand-drawn doodle illustration prompt for GPT Image 2 has exploded across X, producing airy magazine-style sketches from real photos. The secret is in the anti-AI language: 'wobbly lines,' 'hand-drawn imperfections,' 'slightly open contours,' and 'avoid clean vector graphics.' Works beautifully on portraits and couple photos with customizable accent colors like sky blue, terracotta, or sage green.",
+    "url": "https://x.com/oggii_0/status/2079455201896075492",
     "source": "X",
     "category": "Image Generation"
   },
   {
-    "title": "Flower Dress — Blooming Couture Fashion Prompt Going Viral",
-    "description": "This creative fashion prompt reimagines models wearing elegant flower-inspired gowns where the top resembles a stem and the bottom blooms into layered petals. The prompt specifies bodice shaping, petal textures, botanical accents, and high-fashion couture styling. It's gaining traction as a go-to template for AI fashion illustration across GPT Image, Gemini, and Flux.",
-    "url": "https://x.com/HasaanHarr68735/status/2079454102107398201",
-    "source": "X",
-    "category": "Image Prompt"
-  },
-  {
-    "title": "AI Short Film Lessons: Story-First Prompting Framework by Lara Avci",
-    "description": "After producing her first AI short film, @laraavci_ shared hard-won production lessons that reframe AI video prompting as intentional filmmaking. Key insights: treat camera prompts as blocking instructions (start position, movement speed, what stays in frame), create character reference packs BEFORE generating scenes, and edit at low resolution first — only invest in high-res for shots that survive the timeline.",
-    "url": "https://x.com/laraavci_/status/2079235049891733887",
-    "source": "X",
-    "category": "AI Video"
-  },
-  {
-    "title": "Structured Prompt Skeletons & Character Bible for Consistent AI Video",
-    "description": "Top AI video creators now use a repeatable prompt skeleton: character lock paragraph → wardrobe → action → location → lighting → camera specs → consistency notes. The 'character bible' approach — generating multi-angle reference sheets before any video — is the single biggest factor in preventing face and clothing drift across shots. Meta-prompting (having an LLM act as 'Expert Cinematic Director' to generate your prompt) is also trending.",
+    "title": "Character Bible + Storyboard Pipeline: The End-to-End AI Video Workflow Taking Over",
+    "description": "Creators are abandoning one-shot text-to-video for a structured pipeline: Character Bible → Storyboard → Consistent Stills → Image-to-Video with subtle motion. This thread walks through building detailed character reference sheets with locked facial features, using an LLM-generated professional storyboard from a meta-prompt, and then animating each frame with 'subtle natural motion only' instructions. Identity drift is the enemy — this workflow kills it.",
     "url": "https://x.com/VigoCreativeAI/status/2079404223846850841",
     "source": "X",
     "category": "AI Video"
   },
   {
-    "title": "Stop Chatting: The Prompt Structure Real AI Agents Need to Survive Production",
-    "description": "This r/AI_Agents post argues that standard chat prompts are insufficient for production agents. It introduces a structured template with explicit state management, tool routing, and failure modes — part of a 3-post series covering prompt engineering for real agent automations. The accompanying public GitHub repo includes worked examples and has sparked extensive community discussion.",
+    "title": "Hybrid-Frequency Optical Illusion Prompt — One Image, Two Subjects at Different Distances",
+    "description": "A mind-bending prompt template generates images where one subject appears at arm's length and a completely different subject emerges at ten paces. The technique renders one concept entirely in high-frequency information (fine lines, edge detail) and another in low-frequency information (broad mass, tonal blocks), occupying the same pixels. No mid-tones allowed — the viewer experiences a 'moment of nothing' in the crossover zone.",
+    "url": "https://x.com/Gdgtify/status/2079899007741284758",
+    "source": "X",
+    "category": "Image Prompt"
+  },
+  {
+    "title": "177 SOUL.md Templates Organized into 24 Categories — Free and Open Source",
+    "description": "A community member has curated and organized 177 ready-to-use SOUL.md agent personality templates across 24 categories, all free and open source. From Code Architect to Creative Director to Patient Tutor, these templates provide the identity backbone that modern AI agents need for consistent, predictable behavior. The post includes lessons learned about what makes a SOUL.md actually effective vs. just verbose.",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rzt9ba/i_organized_177_soulmd_templates_into_24/",
+    "source": "Reddit",
+    "category": "Skills Template"
+  },
+  {
+    "title": "1,446 Trending AI Image Prompts — Open Source Library with MCP Server Included",
+    "description": "An open-source repository containing 1,446 viral AI image prompts ranked by likes and updated weekly has hit the front page of r/PromptEngineering. The dataset includes full prompt text, author, generated image URLs, model type, and category tags — all in JSON under CC BY 4.0. A companion MCP server lets you query the library programmatically, making it a powerful resource for studying what makes image prompts actually work.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
+    "source": "Reddit",
+    "category": "Image Prompt"
+  },
+  {
+    "title": "The 10-Part Image Prompt Template That Finally Delivers Cinematic Results",
+    "description": "A Reddit user cracked the code on consistent, cinematic AI images with a 10-part framework covering subject, story, style, lighting, camera, detail, quality, and negative constraints. The key insight: most prompts fail because they describe a thing, not a shot. This template forces you to think like a cinematographer — fill each line, then iterate one block at a time for dramatically better results across GPT Image 2, Midjourney, and Flux.",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
+    "source": "Reddit",
+    "category": "Image Generation"
+  },
+  {
+    "title": "Stop Chatting — The Production-Grade Prompt Structure Real AI Agents Need",
+    "description": "A detailed breakdown of the layered prompt architecture required for AI agents to survive in production environments. Moving beyond simple 'system prompts,' this framework covers identity layers, skill composition, memory management, tool policies, and runtime guardrails. The post includes a public GitHub repo with real examples and argues that most agent failures come from under-specified prompt architecture, not model limitations.",
     "url": "https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/",
     "source": "Reddit",
     "category": "Agent Engineering"
   },
   {
-    "title": "20+ Prompts That Actually Work in 2026 — Battle-Tested and Free",
-    "description": "A highly-upvoted r/PromptEngineering compilation of 20+ prompt techniques that survived real-world testing in 2026. Each comes with copy-paste templates so you can adapt them immediately. Techniques range from research agents and coding assistants to creative ideation frameworks — all validated against current model behavior rather than theoretical best practices.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sw6z8q/20_prompts_that_actually_work_in_2026/",
+    "title": "Decouple and Composite: The Gold Standard AI Video Character Consistency Workflow",
+    "description": "A Reddit deep-dive into the 'Decouple and Composite' strategy for nail-down character consistency in AI video. The workflow rigidly separates still image generation (for identity lock) from motion generation (for animation), then composites the results. Combined with a Character Bible approach — fixed face references, age, lighting, camera distance — this is becoming the industry standard for anyone serious about multi-shot AI filmmaking with Veo, Kling, and Runway.",
+    "url": "https://www.reddit.com/r/generativeAI/comments/1rpqydv/my_personal_workflow_for_nailing_ai_video/",
     "source": "Reddit",
-    "category": "Gen AI"
-  },
-  {
-    "title": "1,542 Viral AI Image Prompts — Ranked by Likes, Open Source, Updated Weekly",
-    "description": "This open-source dataset on GitHub contains 1,542 viral AI image prompts ranked by community likes, including full text, author, generated image URLs, model type, and category tags. All in JSON under CC BY 4.0. The companion MCP server lets you query prompts programmatically. It's become the de facto reference for studying what makes image prompts perform.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1rkb0ko/1542_viral_ai_image_prompts_ranked_by_likes/",
-    "source": "Reddit",
-    "category": "Image Generation"
-  },
-  {
-    "title": "PromptCreek: Free AI Prompt Library with 500+ Templates and 1,000+ Agent Skills",
-    "description": "Built in response to paywalled alternatives like AIPRM and PromptBase, PromptCreek offers a completely free directory of 500+ prompt templates and 1,000+ agent skills. The r/SideProject post details how it auto-categorizes prompts by use case and niche — covering image editing, legal research, marketing, and development. A growing community alternative for builders who refuse to pay for prompt access.",
-    "url": "https://www.reddit.com/r/SideProject/comments/1s8o8gh/i_built_a_completly_free_ai_prompt_library_with/",
-    "source": "Reddit",
-    "category": "Skills Template"
+    "category": "AI Video"
   }
 ]
