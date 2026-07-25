@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Edition — Quick Scan · Thursday, 23 July 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,700;14..32,900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:18px;scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;line-height:1.5;color:#1a1a1a;background:#f8f5f0}
+
+/* MASTHEAD — compact */
+.masthead{padding:2.5rem 2rem 1.5rem;text-align:center;border-bottom:3px double #1a1a1a}
+.masthead .tag{font-size:0.65rem;letter-spacing:0.35em;text-transform:uppercase;color:#8b4513;margin-bottom:0.4rem}
+.masthead h1{font-family:'Fraunces',serif;font-size:clamp(2rem,6vw,3.5rem);font-weight:900;line-height:0.95;letter-spacing:-0.03em}
+.masthead .dateline{font-size:0.75rem;color:#666;letter-spacing:0.2em;text-transform:uppercase;margin-top:0.5rem}
+.masthead .nav-row{margin-top:0.8rem;font-size:0.7rem}
+.masthead .nav-row a{color:#8b4513;text-decoration:none;border-bottom:1px solid #d4c5a0;margin:0 0.4rem}
+.masthead .nav-row a:hover{border-color:#8b4513}
+
+/* GRID */
+.grid{max-width:1200px;margin:0 auto;padding:2rem 1.5rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem}
+
+/* CARD */
+.card{background:#fff;border:1px solid #e0d8cc;padding:1.5rem;position:relative;transition:box-shadow 0.2s,transform 0.15s;text-decoration:none;color:inherit;display:flex;flex-direction:column}
+.card:hover{box-shadow:0 8px 30px rgba(0,0,0,0.08);transform:translateY(-2px)}
+.card .num{position:absolute;top:0.8rem;right:1rem;font-family:'Fraunces',serif;font-size:2.5rem;font-weight:900;color:#e0d8cc;line-height:1;pointer-events:none}
+.card .cat{display:inline-block;font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;padding:0.2rem 0.6rem;margin-bottom:0.8rem;font-weight:700;position:relative;z-index:1}
+.card .title{font-family:'Fraunces',serif;font-size:1.15rem;font-weight:700;line-height:1.2;margin-bottom:0.6rem;position:relative;z-index:1}
+.card .desc{font-size:0.78rem;line-height:1.55;color:#555;flex:1;margin-bottom:1rem}
+.card .src{font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:#999;display:flex;align-items:center;gap:0.4rem}
+.card .src span{font-weight:700;color:#8b4513}
+.card .src .arrow{margin-left:auto;opacity:0;transition:opacity 0.15s;font-size:1.1rem}
+.card:hover .src .arrow{opacity:0.6}
+
+/* category colors */
+.cat.agent{background:#111;color:#fff}
+.cat.image{background:#fff5f5;color:#e53e3e;border:1px solid #fecaca}
+.cat.video{background:#ecfdf5;color:#065f46;border:1px solid #a7f3d0}
+.cat.skills{background:#fefce8;color:#854d0e;border:1px solid #fde68a}
+.cat.pattern{background:#faf5ff;color:#6b21a8;border:1px solid #e9d5ff}
+
+/* RESPONSIVE */
+@media(max-width:700px){
+  .grid{grid-template-columns:1fr;padding:1.2rem 1rem}
+  .card{padding:1.2rem}
+  .card .title{font-size:1.05rem}
+}
+
+/* COLOPHON */
+.colophon{padding:2.5rem 2rem;text-align:center;background:#111;color:#666;font-size:0.65rem;letter-spacing:0.1em;text-transform:uppercase;margin-top:2rem}
+.colophon a{color:#999;text-decoration:none;border-bottom:1px solid #444}
+.colophon a:hover{color:#fff}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+<div class="tag">The Daily Briefing for AI Builders</div>
+<h1>MORNING EDITION</h1>
+<div class="dateline">Thursday, 23 July 2026 · Quick Scan</div>
+<div class="nav-row">
+<a href="magazines/2026-07-23.html">Full Magazine →</a>
+<a href="../index.html">All Issues →</a>
+</div>
+</header>
+
+<main class="grid">
+
+<a class="card" href="magazines/2026-07-23.html" target="_blank">
+<span class="num">01</span>
+<span class="cat agent">Agent Architecture</span>
+<h2 class="title">ERP Loop: The Production Agent System Prompt Template Taking Over 2026</h2>
+<p class="desc">Suraj Sharma shares a battle-tested production-grade agent system prompt using Enhanced ReAct + Reflection + Planning. Modular foundation for LangGraph, CrewAI, and modern runtimes.</p>
+<div class="src"><span>X</span> suraj_sharma14 <span class="arrow">→</span></div>
+</a>
+
+<a class="card" href="magazines/2026-07-23.html" target="_blank">
+<span class="num">02</span>
+<span class="cat agent">Agent Engineering</span>
+<h2 class="title">Stop Chatting: The Prompt Structure Real AI Agents Need to Survive in Production</h2>
+<p class="desc">r/AI_Agents surfaces a production prompt structure treating agents as runtime contracts — authority levels, evidence requirements, tool-calling protocols. Prompts as code, not prose.</p>
+<div class="src"><span>Reddit</span> r/AI_Agents <span class="arrow">→</span></div>
+</a>
+
+<a class="card" href="magazines/2026-07-23.html" target="_blank">
+<span class="num">03</span>
+<span class="cat image">Image Generation</span>
+<h2 class="title">Midjourney SREF 1016339029: Cyberpunk Synthwave Aesthetic Goes Viral</h2>
+<p class="desc">Neon retro-futurism with --niji 6 --sv 4. The cyberpunk synthwave aesthetic dominates Midjourney feeds this week with stunning sci-fi scene prompts.</p>
+<div class="src"><span>X</span> promptsref <span class="arrow">→</span></div>
+</a>
+
+<a class="card" href="magazines/2026-07-23.html" target="_blank">
+<span class="num">04</span>
+<span class="cat image">Image Generation</span>
+<h2 class="title">Midjourney SREF 1446367995: Blade Runner Dream Logic with V7</h2>
+<p class="desc">Neon-drenched cinematic style with dramatic lens flares, particle halos, and dreamlike sci-fi aesthetics — Blade Runner concept art energy.</p>
+<div class="src"><span>X</span> promptsref <span class="arrow">→</span></div>
+</a>
+
+<a class="card" href="magazines/2026-07-23.html" target="_blank">
+<span class="num">05</span>
+<span class="cat image">Image Prompt</span>
+<h2 class="title">1,446 Trending AI Image Prompts: Open Source Library Goes Viral</h2>
+<p class="desc">CC BY 4.0 prompt library covering GPT Image 2 & NanoBanana, ranked by engagement. Includes companion MCP server — a goldmine for studying what makes image prompts perform.</p>
+<div class="src"><span>Reddit</span> r/PromptEngineering <span class="arrow">→</span></div>
+</a>
+
+<a class="card" href="magazines/2026-07-23.html" target="_blank">
+<span class="num">06</span>
+<span class="cat agent">Agent Template</span>
+<h2 class="title">LangGraph + Clean Architecture: A Production-Ready Agent Template</h2>
+<p class="desc">Open-source template combining LangGraph with ports-and-adapters. Output caching keyed by prompt version, clean separation of orchestration and business logic.</p>
+<div class="src"><span>Reddit</span> r/LangChain <span class="arrow">→</span></div>
+</a>
+
+<a class="card" href="magazines/2026-07-23.html" target="_blank">
+<span class="num">07</span>
+<span class="cat video">AI Video</span>
+<h2 class="title">The 10-Point AI Video Prompt Framework: Think Like a Filmmaker</h2>
+<p class="desc">Structured framework: video type, subject, action, environment, shot direction, lighting, pacing, audio, continuity, ending. From vibe-based to cinematographic prompting.</p>
+<div class="src"><span>X</span> mrizkimurtadha <span class="arrow">→</span></div>
+</a>
+
+<a class="card" href="magazines/2026-07-23.html" target="_blank">
+<span class="num">08</span>
+<span class="cat video">AI Video</span>
+<h2 class="title">ComfyUI Image-to-Video: Character Consistency Workflow Takes Off</h2>
+<p class="desc">Production workflow using reference images, LoRAs, and continuity instructions. Generate a reference frame then prompt only motion changes — dramatically reduces style drift.</p>
+<div class="src"><span>X</span> ComfyUI <span class="arrow">→</span></div>
+</a>
+
+<a class="card" href="magazines/2026-07-23.html" target="_blank">
+<span class="num">09</span>
+<span class="cat skills">Skills Template</span>
+<h2 class="title">20+ Prompt Techniques That Actually Work in 2026: Free Template Collection</h2>
+<p class="desc">Reddit-curated collection of production-tested prompt techniques with copy-paste templates. Covers structured output, chain-of-thought variants, role-play frameworks, multi-turn patterns.</p>
+<div class="src"><span>Reddit</span> r/PromptEngineering <span class="arrow">→</span></div>
+</a>
+
+<a class="card" href="magazines/2026-07-23.html" target="_blank">
+<span class="num">10</span>
+<span class="cat pattern">Agent Pattern</span>
+<h2 class="title">Skills-First Agent Runtime Contract: 3 Prompts That Actually Work</h2>
+<p class="desc">ElizabethAI on 47+ agents with n8n + Claude: a skills-first runtime contract approach. Clear skill libraries, strict selection rules, authority boundaries, evidence requirements.</p>
+<div class="src"><span>X</span> ElizabethAI_1 <span class="arrow">→</span></div>
+</a>
+
+</main>
+
+<footer class="colophon">
+<p>Morning Edition — Quick Scan · Published daily at 7am AWST</p>
+<p>Full magazine: <a href="magazines/2026-07-23.html">2026-07-23</a> · All issues: <a href="../index.html">Index</a></p>
+<p style="margin-top:0.4rem;color:#444">Built with Fraunces & Inter</p>
+</footer>
+</body>
+</html>
