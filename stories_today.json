@@ -1,72 +1,72 @@
 [
   {
-    "title": "The Anatomy of the Perfect SOUL.md File for AI Agents",
-    "description": "Akshay Pachaar breaks down how a SOUL.md file sits at the top of the system prompt—before memory, before skills, before tools—and defines who the agent is when it shows up. An hour spent crafting it changes every conversation that follows, and unlike other layers that update themselves, this one is yours.",
-    "url": "https://x.com/akshay_pachaar/status/2058584154292584853",
-    "source": "X",
-    "category": "Agent Template"
-  },
-  {
-    "title": "7 Crucial Skills to Become an AI Agents Engineer in 2026",
-    "description": "Maryam Miradi, after building and deploying 400+ AI agents, curated the 7 essential skills bridging the gap from prompt engineer to full agent engineer. System design tops the list—if you've built backend services talking to each other, you already think like an agent engineer.",
-    "url": "https://x.com/MaryamMiradi/status/2053220266860584982",
-    "source": "X",
-    "category": "Agent Engineering"
-  },
-  {
-    "title": "Kling AI's Cinematic 3-Shot Video Prompt Template",
-    "description": "Kling AI shared a structured multi-shot prompt template with dramatic single-source overhead lighting, moody film-grain aesthetic, and dual-character emotional progression in pure 4K. The template demonstrates how treating AI video prompts like tiny shooting scripts returns dramatically more consistent results.",
-    "url": "https://x.com/Kling_ai/status/2069408399058473197",
-    "source": "X",
-    "category": "AI Video"
-  },
-  {
-    "title": "Agent Skills for Context Engineering — Open Source Meta-Agent Knowledge Base",
-    "description": "Muratcan Koylan released a repo that acts as a Meta-Agent knowledge base—providing standard skills written in markdown and code that you feed to an agent so it can reason about its own capabilities. Instead of a black-box tool library, it teaches agents to understand and compose their own skill chains.",
-    "url": "https://x.com/muratcan/status/2002797649842331919",
+    "title": "Agent Skills Revolution: How SKILL.md Templates Are Replacing One-Off Prompts",
+    "description": "The biggest trend in AI prompting is shifting from ad-hoc prompts to reusable SKILL.md files that define agent triggers, rules, output formats, and behaviors. These structured templates turn agents into consistent, specialized team members across Claude Code, Cursor, Grok, and Hermes — just drop a file into your skills directory and reload.",
+    "url": "https://x.com/TraffAlex/status/2080770347830296709",
     "source": "X",
     "category": "Skills Template"
   },
   {
-    "title": "1,446 Trending AI Image Prompts for GPT Image 2 & NanoBanana — Open Source",
-    "description": "A massive prompt library with 1,446 categorized image prompts including system prompts and MCP integration, auto-categorized with niche use cases from image editing to legal research. The dataset reveals distinct stylistic signatures: GPT Image 2 leans toward posters and typography, while NanoBanana favors portraits and product shots in structured JSON.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
-    "source": "Reddit",
-    "category": "Image Prompt"
+    "title": "The Agent-Native Era: Why Prompt Engineering Alone Is No Longer Enough",
+    "description": "Top 1% AI users are moving beyond prompt engineering toward agent orchestration, reusable skills design, multi-agent fleets, and cloud automation. This thread maps the compounding skills that separate beginners from builders who run agents while they sleep — memory management, token budgeting, and self-checking loops.",
+    "url": "https://x.com/sharyph_/status/2080491914219155552",
+    "source": "X",
+    "category": "Agent Pattern"
   },
   {
-    "title": "The 10-Part ChatGPT Image Prompt Template That Delivers Cinematic Results",
-    "description": "A battle-tested framework that moves beyond describing a subject to controlling the shot: subject, story, style, lighting, camera, detail, quality, and explicit exclusions. Most prompts fail because they only describe a thing, not a shot—this template forces cinematographer-level thinking for every generation.",
-    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
-    "source": "Reddit",
-    "category": "Image Generation"
-  },
-  {
-    "title": "Stop Chatting — The Prompt Structure Real AI Agents Need to Survive in Production",
-    "description": "A production-grade system prompt architecture that treats the prompt as an operating system for the agent's behavior rather than a conversational starter. The template includes multi-step prompt chains, tool orchestration layers, and guardrails—pushing agents from chatty demos to reliable autonomous workers.",
+    "title": "Stop Chatting: The Production-Ready Agent Prompt Structure That Survives Real Deployments",
+    "description": "A widely-shared Reddit breakdown of the prompt architecture real AI agents need in production — moving beyond casual chatbot interactions to structured intake, classification, planning, tool use, retry/recovery, and clean reporting loops. Includes a full GitHub template with examples from a production course curriculum.",
     "url": "https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/",
     "source": "Reddit",
     "category": "Agent Architecture"
   },
   {
-    "title": "A Good AI Video Prompt Is a Tiny Drama Script with Camera Notes",
-    "description": "A structured template that treats AI video prompts as miniature screenplays: Subject + Situation → Trigger Event → Emotional Shift → Physical Reaction → Camera Movement → Final Frame → Lighting Constraints. The insight: models don't know what 'cinematic sadness' looks like over 5 seconds—you must script the visible emotional arc frame by frame.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1tr7k3v/a_good_ai_video_prompt_is_basically_a_tiny_drama/",
-    "source": "Reddit",
-    "category": "AI Video"
-  },
-  {
-    "title": "5 Agent Skills to Install Before Starting Any New Agent Project in 2026",
-    "description": "A curated stack of foundational agent skills—including a prompt-engineer meta-skill that writes and refines system prompts, a memory management pattern, and tool-use orchestration. The prompt-engineer skill alone was called a 'game changer' by builders who previously struggled with system prompt design.",
-    "url": "https://www.reddit.com/r/AI_Agents/comments/1roe8k8/5_agent_skills_id_install_before_starting_any_new/",
-    "source": "Reddit",
-    "category": "Agent Pattern"
-  },
-  {
-    "title": "Production-Ready AI Agent Template Using LangGraph and Clean Architecture",
-    "description": "An open-source template implementing Clean Architecture patterns for AI agents built on LangGraph, with proper separation between model ports, tool interfaces, and orchestration layers. Key insight: swapping models or databases is cheap when they sit behind ports—but swapping the agentic framework itself remains the expensive migration to avoid.",
+    "title": "LangGraph + Clean Architecture: A Production-Ready Template for AI Agents",
+    "description": "An open-source template combining LangGraph with Clean Architecture principles for building production AI agents. Features model-agnostic ports, config-driven model/DB swapping, and a cache layer for prompt version regression testing — addressing the painful gap between prototype agents and deployment-ready systems.",
     "url": "https://www.reddit.com/r/LangChain/comments/1ss1r93/i_built_a_productionready_template_for_ai_agents/",
     "source": "Reddit",
     "category": "Agent Template"
+  },
+  {
+    "title": "Fiery Silhouette: The Viral AI Image Prompt Taking Over X With Millions of Views",
+    "description": "A dramatic black-silhouette-in-flames prompt is going massively viral as engagement bait, especially paired with interactive elements. The core formula — dark textured background, intense cinematic lighting, volumetric light, and glowing embers — is being remixed with bioluminescent energy, cosmic auras, and molten gold variations across Flux, Midjourney V8, and Grok.",
+    "url": "https://x.com/grok/status/2080940857826361826",
+    "source": "X",
+    "category": "Image Generation"
+  },
+  {
+    "title": "Transparent Glass 3D CGI: The Prompt Template Dominating Product Visualization Feeds",
+    "description": "A photorealistic glass-and-crystal material prompt template is flooding AI art feeds, replacing subjects with transparent glossy renders featuring realistic caustics, refractions, and cinematic lighting on pure transparent backgrounds. The template works universally — swap in skulls, cars, roses, mechanical hearts, or sneakers for instant premium product visualizations.",
+    "url": "https://x.com/grok/status/2080699728094777591",
+    "source": "X",
+    "category": "Image Prompt"
+  },
+  {
+    "title": "1,446 Trending AI Image Prompts: Massive Open Source Library for GPT Image 2 & NanoBanana",
+    "description": "A comprehensive open-source prompt library containing 1,446 trending image generation prompts, auto-categorized with system prompts and MCP server integration included. The dataset splits between GPT Image 2 (posters, typography, multi-panel storyboards) and NanoBanana (portraits, product shots in JSON), all under CC BY 4.0 license.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
+    "source": "Reddit",
+    "category": "Image Generation"
+  },
+  {
+    "title": "Multi-Shot AI Video Sequencing: The Template Top Creators Swear By for Consistent Output",
+    "description": "Instead of generating separate clips, top AI video creators now use timestamped multi-shot prompts that produce pre-edited sequences with consistent lighting, characters, and grading in a single generation. Using numbered shots with timecodes like 'Shot 1 [0-4s]... Shot 2 [4-8s]: hard cut to...' in Kling 3.0, Runway Gen-4.5, and Sora 2 delivers cinema-quality results.",
+    "url": "https://x.com/HOONIGALL/status/2080883087588700218",
+    "source": "X",
+    "category": "AI Video"
+  },
+  {
+    "title": "12-File Agent Skills Library Goes Open Source — Complete With Skill-Guard Audit Tool",
+    "description": "A comprehensive open-source library of 12 reusable agent behavior skills covering intake, clarification, planning, grounding, tool use, retry/recovery, self-checking, escalation, clean reporting, memory management, handoff, and async scheduling. Ships with 'skill-guard', a new tool that audits third-party SKILL.md files before loading them into high-privilege agent contexts.",
+    "url": "https://x.com/chenzeling4/status/2080834424414068847",
+    "source": "X",
+    "category": "Skills Template"
+  },
+  {
+    "title": "20+ Prompts That Actually Work in 2026 — Tested Templates You Can Copy Today",
+    "description": "A Reddit community-vetted collection of 20+ battle-tested AI prompts with ready-to-copy templates spanning research, coding, content creation, and creative work. The post includes before/after examples showing how structured templates outperform casual prompting — part of a growing push toward reusable, shareable prompt libraries over one-off interactions.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sw6z8q/20_prompts_that_actually_work_in_2026/",
+    "source": "Reddit",
+    "category": "Gen AI"
   }
 ]
