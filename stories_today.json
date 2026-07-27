@@ -1,72 +1,72 @@
 [
   {
-    "title": "Stop Chatting: The Prompt Structure Real AI Agents Need to Survive in Production",
-    "description": "A definitive guide arguing that production AI agents need structured prompt engineering — not free-form chat. The author breaks down a battle-tested template with real examples from course material, covering fail-safe patterns, tool-use enforcement, and mid-turn steering that serious agent builders are adopting.",
+    "title": "Comprehensive Comparison of Every AI Agent Framework in 2026",
+    "description": "A massive community-driven comparison of 25+ AI agent frameworks including LangChain, LangGraph, CrewAI, AutoGen, Mastra, and DeerFlow. Covers orchestration patterns, multi-agent coordination, and which framework to pick for production vs prototyping.",
+    "url": "https://www.reddit.com/r/LangChain/comments/1rnc2u9/comprehensive_comparison_of_every_ai_agent/",
+    "source": "Reddit",
+    "category": "Agent Architecture"
+  },
+  {
+    "title": "Stop Chatting — The Prompt Structure Real AI Agents Need to Survive in Production",
+    "description": "A production-grade agent prompt template with tool definitions, strict output schemas, failure modes, and guardrails. This is the anti-chatbot architecture — defining exactly how agents should format responses, handle errors, and maintain state across tool calls.",
     "url": "https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/",
     "source": "Reddit",
-    "category": "Agent Pattern"
-  },
-  {
-    "title": "Production-Ready AI Agent Template Using LangGraph and Clean Architecture",
-    "description": "An open-source template for AI agents combining LangGraph with clean architecture principles. Features model output caching keyed by prompt version, model ID, and input hash — plus port-based abstractions that make swapping models or databases trivial. The author notes that framework migration (e.g. LangGraph to Google ADK) remains the hard part.",
-    "url": "https://www.reddit.com/r/LangChain/comments/1ss1r93/i_built_a_productionready_template_for_ai_agents/",
-    "source": "Reddit",
     "category": "Agent Template"
   },
   {
-    "title": "Curated Collection of System Prompts for Popular AI Agents (Cline, Bolt, and More)",
-    "description": "A comprehensive open-source collection of real system prompts extracted from popular AI coding agents including Cline and Bolt. Essential reading for anyone building or customizing agent behavior — these are the actual prompts that power the tools developers use daily.",
-    "url": "https://www.reddit.com/r/AI_Agents/comments/1iytsyx/a_collection_of_system_prompts_for_popular_ai/",
+    "title": "20+ Prompts That Actually Work in 2026 — With Copy-Paste Templates",
+    "description": "A curated collection of 20+ battle-tested prompts spanning research, coding, content creation, and analysis. Each prompt comes with a reusable template so you can adapt it to your own domain instantly.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sw6z8q/20_prompts_that_actually_work_in_2026/",
     "source": "Reddit",
-    "category": "Agent Template"
+    "category": "Gen AI"
   },
   {
-    "title": "1,446 Trending AI Image Prompts for GPT Image 2 and NanoBanana — System Prompt and MCP Included",
-    "description": "A massive open-source dataset of trending AI image prompts with full text, author, likes, views, generated image URLs, model type, and category tags. GPT Image 2 prompts lean toward posters and typography while NanoBanana excels at portraits and product shots — comes with a companion MCP server for integration into any workflow.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
-    "source": "Reddit",
-    "category": "Image Generation"
-  },
-  {
-    "title": "System Prompt That Auto-Generates Pro-Level Image Prompts After Analyzing 1,000+ Viral Prompts",
-    "description": "A ComfyUI LLM node system prompt engineered by reverse-engineering over 1,000 viral image prompts. The system prompt understands composition, lighting, camera specs, and style parameters — producing professional-grade image prompts automatically. Dataset of 1,100+ prompts with image links included as open-source JSON.",
-    "url": "https://www.reddit.com/r/comfyui/comments/1qq55j1/after_analyzing_1000_viral_prompts_i_made_a/",
-    "source": "Reddit",
-    "category": "Image Prompt"
-  },
-  {
-    "title": "The 10-Part ChatGPT Image Prompt Template for Cinematic AI Results",
-    "description": "A proven 10-part framework for controlling subject, story, style, lighting, camera, detail, quality, and negative constraints in AI image generation. The key insight: most prompts fail because they describe a thing, not a shot. This template fixes that by thinking like a cinematographer instead of a catalog writer.",
-    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
-    "source": "Reddit",
-    "category": "Image Prompt"
-  },
-  {
-    "title": "Kling 3.0 vs Veo 3.1 vs Seedance 2.0: Same 10 Prompts, Honest Scores for Narrative Video",
-    "description": "A rigorous head-to-head comparison of the top three AI video generators using identical narrative prompts. Scores cover motion realism, character continuity, photorealism, and dialogue handling — with practical recommendations for episodic content creators choosing between Kling's motion control and Seedance's creative flexibility.",
-    "url": "https://www.reddit.com/r/generativeAI/comments/1t01amu/kling_30_vs_veo_31_vs_seedance_20_for_narrative/",
+    "title": "100 Cinematic AI Video Prompts for Kling & Runway — With Swappable Variables",
+    "description": "A massive prompt pack of 100 structured video prompts designed for Kling and Runway. Uses a variable-swap system: swap out subject, lighting, and camera movement while keeping the cinematic structure intact, producing consistent results across generations.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1scqub2/made_100_cinematic_ai_video_prompts_sharing_some/",
     "source": "Reddit",
     "category": "AI Video"
   },
   {
-    "title": "Build an Agent to Find Trending Tweets and Monitor X — Full Template Shared",
-    "description": "A complete agent template for automatically discovering trending tweets by topic and delivering them to your inbox or dashboard. The author shares the full code and architecture, making it a practical skills template for anyone wanting to build AI-powered social listening tools.",
-    "url": "https://www.reddit.com/r/AI_Agents/comments/1saliq6/built_an_agent_to_find_relevant_tweets_and_trends/",
+    "title": "1,446 Trending AI Image Prompts for GPT Image 2 & NanoBanana — Open Source",
+    "description": "An open-source library of 1,446 categorized AI image prompts spanning every niche from product photography to editorial fashion. Includes system prompt templates and MCP server integration for programmatic image generation workflows.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
+    "source": "Reddit",
+    "category": "Image Prompt"
+  },
+  {
+    "title": "The Complete Framework for Prompting AI Image & Video Generators — 6 Months of Research",
+    "description": "A systematic breakdown of why AI image and video outputs look generic — and the exact prompting framework that fixes it. Covers Midjourney, Flux, DALL-E, Kling, and Runway with before/after examples showing how keyword-forward structured prompts dramatically improve results.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1ueidhe/nobody_explains_how_to_actually_prompt_ai/",
+    "source": "Reddit",
+    "category": "Image Generation"
+  },
+  {
+    "title": "Midjourney + Kling + Sora — The Ultimate Multi-Tool AI Video Pipeline",
+    "description": "Rory Flynn's viral workflow combines Midjourney for base image generation, Kling Elements for scene composition, and Sora Blend for final video output. The thread includes exact prompts, aspect ratios, and style parameters that produce cinematic results across all three tools.",
+    "url": "https://x.com/Ror_Fly/status/1892585851218993651",
+    "source": "X",
+    "category": "AI Video"
+  },
+  {
+    "title": "Lessons from Building Claude Code — Seeing Like an Agent",
+    "description": "Anthropic engineer Thariq shares production insights on Claude Code's architecture: how structured output prompting, agent tool design, and seeing the system from the model's perspective shaped one of the most-used AI coding agents. Essential reading for anyone building agentic systems.",
+    "url": "https://x.com/trq212/status/2027463795355095314",
+    "source": "X",
+    "category": "Agent Engineering"
+  },
+  {
+    "title": "A Free Goldmine of AI Agent Examples, Templates, and Advanced Workflows",
+    "description": "A comprehensive repository of AI agent templates covering everything from RAG pipelines to multi-agent orchestration patterns. Includes ready-to-deploy workflows for Claude, LangChain, and CrewAI with production-grade error handling and evaluation loops.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1mpptgc/a_free_goldmine_of_ai_agent_examples_templates/",
     "source": "Reddit",
     "category": "Skills Template"
   },
   {
-    "title": "Google's OKF: The New Open Standard for AI Agents Nobody Is Talking About",
-    "description": "Google quietly released OKF (Open Knowledge Format) in June 2026 — a standard for AI agents built on a .okf/ directory of markdown files with YAML frontmatter. Instead of explaining your codebase to every agent session, any agent can read your .okf directory. This could fundamentally change how agent context and memory work across platforms.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1ujq6cm/google_dropped_a_new_open_standard_for_ai_agents/",
+    "title": "Best AI Agent Frameworks in 2026 — The Builders' Consensus",
+    "description": "A pragmatic discussion on which agent frameworks actually deliver in production. The consensus: skip orchestration frameworks for 80% of builds, master tool-use + evaluation loops instead, and only reach for LangGraph/CrewAI when you genuinely need multi-agent coordination.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1sfrb3t/what_are_the_best_tools_and_frameworks_for/",
     "source": "Reddit",
-    "category": "Agent Engineering"
-  },
-  {
-    "title": "Midjourney V8.2 Prompt System: Professional Photography Formula Based on Real Camera Principles",
-    "description": "Midjourney V8.2 dropped July 24, 2026 as the new default — and with it, a comprehensive prompt formula built on real photography principles. The system covers camera/lens specs, film stock simulation, lighting ratios, and composition rules that transform generic AI art into magazine-worthy editorial photography.",
-    "url": "https://www.reddit.com/r/midjourney/comments/1o6dwop/a_professional_photography_prompt_system_based_on/",
-    "source": "Reddit",
-    "category": "Image Generation"
+    "category": "Agent Pattern"
   }
 ]
