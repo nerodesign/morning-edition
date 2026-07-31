@@ -1,72 +1,72 @@
 [
   {
-    "title": "Graph Engineering: The Post-Loop Architecture That Took Over X in 48 Hours",
-    "description": "Peter Steinberger (OpenClaw founder) asked 'Are we still talking loops or did we shift to graphs yet?' — and 3.1M views later, graph engineering became the dominant agent architecture paradigm. Instead of single-cycle loops, graphs model entire systems with specialized agents, branches, memory, parallel work, and conditional routing.",
-    "url": "https://x.com/steipete/status/2078277297791189132",
-    "source": "X",
-    "category": "Agent Architecture"
+    "title": "5 Agent Skills You Need Before Starting Any New AI Project in 2026",
+    "description": "A curated list of five essential agent skills every builder should install before kicking off a new project. Covers memory management, debugging, tool integration, and guardrails — with install commands and links to production-ready repos.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1roe8k8/5_agent_skills_id_install_before_starting_any_new/",
+    "source": "Reddit",
+    "category": "Agent Template"
   },
   {
-    "title": "Midjourney V7 Top SREF Code: --sref 2649031399 Is Dominating This Week",
-    "description": "The most-liked SREF code on the Midjourney SREF Library blends digital art, abstract expressionism, and futurism for stunning V7 outputs. With --v 7 and --sv 6, this style reference is producing consistently viral results across the MJ community.",
-    "url": "https://x.com/promptsref/status/2078510179671228771",
-    "source": "X",
+    "title": "Stop Chatting: The Prompt Structure Real AI Agents Need to Survive in Production",
+    "description": "A detailed breakdown of the system prompt architecture production agents actually need — covering role definition, tool contracts, error handling, and output formatting. Includes a public GitHub repo with real-world examples and templates.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/",
+    "source": "Reddit",
+    "category": "Agent Pattern"
+  },
+  {
+    "title": "The 10-Part ChatGPT Image Prompt Template for Cinematic Results",
+    "description": "A battle-tested 10-part framework that controls subject, story, style, lighting, camera angle, detail level, and negatives. The author breaks down why most prompts fail — they describe a thing, not a shot — and shows how iterating one block at a time produces consistent cinematic outputs.",
+    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
+    "source": "Reddit",
     "category": "Image Generation"
   },
   {
-    "title": "The 5 Agent Skills Every AI Builder Should Install Before Starting a New Project in 2026",
-    "description": "A curated list of five must-have agent skills with full install commands, covering debugging, code review, planning, and autonomous workflows. This post from the Agentailor blog distills months of agent-building experience into a practical starter kit that skips the trial-and-error phase.",
-    "url": "https://www.reddit.com/r/AI_Agents/comments/1roe8k8/5_agent_skills_id_install_before_starting_any_new/",
+    "title": "1,446 Trending AI Image Prompts for GPT Image 2 & NanoBanana — Open Source with MCP",
+    "description": "A massive open-source dataset of trending image prompts with system prompt, companion MCP server, and live gallery. GPT Image 2 prompts lean toward posters, typography, and storyboards; NanoBanana focuses on portraits and product shots in JSON format.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
+    "source": "Reddit",
+    "category": "Image Prompt"
+  },
+  {
+    "title": "1,542 Viral AI Image Prompts Ranked by Likes — Updated Weekly, Free and Open Source",
+    "description": "A CC BY 4.0 dataset of viral AI image prompts including full text, author, likes, views, generated image URLs, model type, and category tags. Useful for studying what makes image prompts work or as a ready-made library for your own tools.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1rkb0ko/1542_viral_ai_image_prompts_ranked_by_likes/",
+    "source": "Reddit",
+    "category": "Image Generation"
+  },
+  {
+    "title": "The Viral Floating Music Interface AI Image Trend — Here's the Exact Prompt",
+    "description": "A cinematic, dreamlike AR visual prompt featuring a photorealistic subject surrounded by floating 3D Spotify/Apple Music interface cards orbiting at varying depths. The post includes the full prompt text and explains why this specific composition pattern is going viral across AI art communities.",
+    "url": "https://www.reddit.com/r/ImagineAiArt/comments/1shic17/everyone_is_generating_this_viral_ai_image_trend/",
+    "source": "Reddit",
+    "category": "Image Generation"
+  },
+  {
+    "title": "From Prompt Engineer to Agent Engineer: The 5 Skills Bridging the Gap in 2026",
+    "description": "A roadmap for transitioning from prompt crafting to full agent engineering. Covers guardrails and governance, multi-agent orchestration, tool design, evaluation frameworks, and deployment patterns — with a focus on versioning, testing, and deploying both prompts and agents in one workflow.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1snyigz/from_prompt_engineer_to_agent_engineer_the_5/",
+    "source": "Reddit",
+    "category": "Agent Engineering"
+  },
+  {
+    "title": "Free AI Prompt Library with 500+ Templates and 1,000+ Agent Skills — Open Source",
+    "description": "A browser-based prompt library and skills directory that aggregates production-ready agent skills from popular GitHub repos. Functions like a plugin store for AI coding workflows — browse by category, see what each skill does, and add it to your setup.",
+    "url": "https://www.reddit.com/r/SideProject/comments/1s8o8gh/i_built_a_completly_free_ai_prompt_library_with/",
     "source": "Reddit",
     "category": "Skills Template"
   },
   {
-    "title": "100 Cinematic AI Video Prompts That Work Insanely Well on Kling and Runway",
-    "description": "Structured prompts with swappable variables deliver dramatically more consistent results across Kling and Runway than freeform descriptions. The template-based approach uses camera direction, lighting specs, and motion descriptors that translate cleanly between video models — a breakthrough for creators tired of the 'slot machine' feel of AI video generation.",
+    "title": "100 Cinematic AI Video Prompts That Work Insanely Well on Kling & Runway",
+    "description": "A collection of structured AI video prompts with swappable variables for consistent results across Kling and Runway. The author shares the template architecture: scene description, camera movement, lighting, duration, and seed parameters — designed for iterative refinement and batch generation.",
     "url": "https://www.reddit.com/r/PromptEngineering/comments/1scqub2/made_100_cinematic_ai_video_prompts_sharing_some/",
     "source": "Reddit",
     "category": "AI Video"
   },
   {
-    "title": "The 10-Part ChatGPT Image Prompt Template for Cinematic, Consistent Results",
-    "description": "A framework covering subject, story, style, lighting, camera, detail, quality, and negative prompts — moving beyond 'describe a thing' to 'describe a shot.' The template has gone viral on r/ChatGPTPromptGenius because it reliably bridges the gap between generic AI slop and intentional, cinematic output.",
-    "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
-    "source": "Reddit",
-    "category": "Image Prompt"
-  },
-  {
-    "title": "1,446 Trending AI Image Prompts Released as Open Source — System Prompt and MCP Included",
-    "description": "A massive prompt library with 3,000+ auto-categorized prompts spanning GPT Image 2 and NanoBanana, shipped with MCP server integration. The library covers image editing, legal research, and niche use cases — making it the most comprehensive open-source image prompt resource this month.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
-    "source": "Reddit",
-    "category": "Image Generation"
-  },
-  {
-    "title": "20+ Prompts That Actually Work in 2026 — With Copy-Paste Templates",
-    "description": "A tested collection of 20 prompt techniques with ready-to-use templates, organized by use case so you can copy and adapt them immediately. The post cuts through the noise of prompt engineering advice and delivers battle-tested patterns that produce reliable outputs across ChatGPT, Claude, and Gemini.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sw6z8q/20_prompts_that_actually_work_in_2026/",
-    "source": "Reddit",
-    "category": "Gen AI"
-  },
-  {
-    "title": "The 2026 AI Agent Stack: What Builders Are Actually Using in Production",
-    "description": "A deep community discussion revealing real-world agent stacks — LangChain for scripted workflows, fine-tuned GPT for email support (cutting response time by 70%), and human-in-the-loop guardrails everywhere. The consensus: no single vendor owns the full stack; the best setups are modular, safety-first, and pragmatic.",
-    "url": "https://www.reddit.com/r/AI_Agents/comments/1rqnv3a/what_is_your_full_ai_agent_stack_in_2026/",
+    "title": "Production-Ready AI Agent Template Using LangGraph and Clean Architecture — Open Source",
+    "description": "A reference architecture that combines LangGraph for stateful agent orchestration with strict Clean Architecture principles. Brings traditional software engineering sanity to AI agent development with proper separation of concerns, dependency injection, and testable boundaries.",
+    "url": "https://www.reddit.com/r/LangChain/comments/1ss1r93/i_built_a_productionready_template_for_ai_agents/",
     "source": "Reddit",
     "category": "Agent Architecture"
-  },
-  {
-    "title": "These New Design Patterns Will Lead AI Agents in 2026 — From Monoliths to Multi-Agent Graphs",
-    "description": "The big shift for 2026 moves away from single all-in-one agents toward systems of smaller, specialized agents that collaborate, reason visually, write and revise code, and adapt their context over time. This pattern breakdown identifies the architectural primitives — memory, branching, parallel execution — that define the next generation of agent systems.",
-    "url": "https://www.reddit.com/r/AI_Agents/comments/1qhu5r3/these_new_design_patterns_will_lead_ai_agents_in/",
-    "source": "Reddit",
-    "category": "Agent Pattern"
-  },
-  {
-    "title": "Start-With-Why Skillset for Agentic Workflows — Minimal Tokens, Maximum Discipline",
-    "description": "A lightweight skillset that merges the best of Superpower and Matt Pocock skill patterns into a token-efficient framework for agentic workflows. The core insight: structured thinking frameworks for agents don't need to be bloated — a 'start with why' constraint produces tighter, more reliable agent behavior with fewer tokens.",
-    "url": "https://www.reddit.com/r/AI_Agents/comments/1u0n87l/startwithwhyskillset_for_agentic_workflows/",
-    "source": "Reddit",
-    "category": "Skills Template"
   }
 ]
