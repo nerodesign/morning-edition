@@ -1,72 +1,72 @@
 [
   {
-    "title": "AI Coding Shifts from Prompts to Self-Prompting Loops",
-    "description": "Developers are moving beyond single-shot prompts into 'loop engineering' — designing iterative cycles where AI agents autonomously plan, code, test, and self-correct. Boris Cherny of Anthropic shared a workflow where agents scan GitHub, Slack, and X to decide their next steps, while tools like Claude Code and OpenAI now support recursive agent loops with built-in verification gates.",
+    "title": "Loop Engineering: The Frontier of Agentic Coding Is Self-Prompting Loops, Not Manual Prompts",
+    "description": "Sachin Rekhi articulates the paradigm shift from single-prompt AI coding to 'loop engineering' — small programs that prompt a coding agent, read its output, decide if it's done, and prompt again. You stop being inside the loop and become the author of the loop itself. Boris Cherny of Anthropic confirmed he no longer prompts Claude manually; loops do it for him.",
+    "url": "https://x.com/sachinrekhi/status/2064013928892645786",
+    "source": "X",
+    "category": "Agent Pattern"
+  },
+  {
+    "title": "Skill Retrieval Augmentation (SRA): 26,262 Skills Benchmark for Agentic AI",
+    "description": "DAIR.AI highlights breakthrough research on Skill Retrieval Augmentation — a framework where agents dynamically retrieve and apply relevant skills at scale. The SRA-Bench includes 26,262 skills, 636 gold skills, and 5,400 capability-intensive tasks. Even a simple retrieval pipeline measurably lifts agent performance, pointing toward a future where agents load skills on-demand rather than relying on static system prompts.",
+    "url": "https://x.com/dair_ai/status/2049221379443310640",
+    "source": "X",
+    "category": "Skills Template"
+  },
+  {
+    "title": "Best AI PMs in 2026 Will Be Agent Managers, Not Prompt Engineers",
+    "description": "Shubham Saboo argues that running AI agents is fundamentally a management skill, not a technical one. After running a team of 8 AI agents for two months, the patterns that improved them most came from management principles — clear briefs, structured handoffs, and performance reviews — not better prompts. The interfaces making this possible (A2UI, AG-UI, Vercel AI JSON UI) are emerging fast.",
+    "url": "https://x.com/Saboo_Shubham_/status/2037550687572423075",
+    "source": "X",
+    "category": "Agent Template"
+  },
+  {
+    "title": "Top AI Agentic Design Patterns: The Architecture Blueprint AI Builders Are Skipping",
+    "description": "A widely-shared resource outlines the essential agentic design patterns that most AI builders skip — jumping straight to model selection and prompt writing without designing the agent's decision architecture first. The thread covers tool-use loops, reflection patterns, multi-agent orchestration, and planning-execution separation as the foundational patterns every production agent needs.",
+    "url": "https://x.com/Python_Dv/status/2042452593499390118",
+    "source": "X",
+    "category": "Agent Architecture"
+  },
+  {
+    "title": "AI Coding Shifts from Prompts to Self-Prompting Loops — The New Developer Workflow",
+    "description": "X's trending tech topic captures the mass migration from manual AI prompting to autonomous loop-based development. Developers now design iterative cycles where agents plan, code, test, and self-correct without human intervention between steps. Tools from Anthropic's Claude Code and OpenAI include worktrees and verification gates that make these loops production-ready.",
     "url": "https://x.com/i/trending/2064013693747380450",
     "source": "X",
     "category": "Agent Engineering"
   },
   {
-    "title": "Production-Ready AI Agent Template Using LangGraph and Clean Architecture",
-    "description": "An open-source template that applies Clean Architecture principles to LangGraph agents, with model outputs keyed by prompt version, model ID, and input hash for reproducible testing. The port-adapter design means swapping databases or models is mostly config-level work, making it a strong foundation for teams shipping agents to production.",
+    "title": "Production-Ready AI Agent Template: LangGraph + Clean Architecture (Open Source)",
+    "description": "A Reddit builder open-sourced a production-grade AI agent template combining LangGraph with Clean Architecture principles — ports and adapters, dependency injection, and separated concerns. The template includes caching of model outputs keyed by prompt version and model ID, plus recorded tool responses for regression testing on prompt changes. Framework-agnostic by design, making model or database swaps config-level changes.",
     "url": "https://www.reddit.com/r/LangChain/comments/1ss1r93/i_built_a_productionready_template_for_ai_agents/",
-    "source": "Reddit",
-    "category": "Agent Architecture"
-  },
-  {
-    "title": "Stop Chatting: The Prompt Structure Real AI Agents Need to Survive in Production",
-    "description": "A detailed breakdown of why conversational-style prompts fail in production agent systems, and what structure actually works. Covers role anchoring, tool-use enforcement, state management, and failure recovery patterns — part of a 3-post series on prompting engineering for autonomous agents with a public GitHub repo of real examples.",
-    "url": "https://www.reddit.com/r/AI_Agents/comments/1l9zbvg/stop_chatting_this_is_the_prompt_structure_real/",
     "source": "Reddit",
     "category": "Agent Template"
   },
   {
-    "title": "1,446 Trending AI Image Prompts for GPT Image 2 & NanoBanana — Open Source",
-    "description": "A massive prompt library with 1,446+ trending image prompts auto-categorized by niche and use case, covering GPT Image 2 (posters, typography, multi-panel storyboards) and NanoBanana (portraits, product shots in JSON). Ships with a system prompt, companion MCP server, and CC BY 4.0 license — a goldmine for anyone studying what makes image prompts work.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
-    "source": "Reddit",
-    "category": "Image Generation"
-  },
-  {
-    "title": "The 10-Part ChatGPT Image Prompt Template for Cinematic, Consistent Results",
-    "description": "A battle-tested prompt framework that goes beyond describing a subject — it structures subject, story, style, lighting, camera direction, detail level, quality parameters, and explicit exclusions. The shift from 'describe a thing' to 'design a shot' is what separates generic AI images from cinematic output, and this template makes that repeatable.",
+    "title": "10-Part Image Prompt Template That Finally Delivers Cinematic AI Results",
+    "description": "A Reddit creator shared a comprehensive 10-part framework for AI image prompts that controls subject, story, style, lighting, camera direction, detail level, quality parameters, and what to avoid — going far beyond basic 'describe the thing' prompting. The template is designed for ChatGPT image generation but adapts to Midjourney, Flux, and other models. Users report it bridges the gap between generic outputs and consistent cinematic results.",
     "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1qms4bf/here_is_the_chatgpt_image_prompt_template_you_can/",
     "source": "Reddit",
     "category": "Image Prompt"
   },
   {
-    "title": "System Prompt That Auto-Generates Pro-Level Image Prompts from ComfyUI LLM Nodes",
-    "description": "After analyzing 1,100+ viral AI image prompts, a creator reverse-engineered a system prompt for ComfyUI LLM nodes that auto-generates professional-grade image prompts with mood, lighting, and composition dialed in. The dataset is open source and includes image links, model types, and category tags — effectively a prompt engineering curriculum for image generation.",
-    "url": "https://www.reddit.com/r/comfyui/comments/1qq55j1/after_analyzing_1000_viral_prompts_i_made_a/",
+    "title": "1,446 Trending AI Image Prompts Open Sourced — GPT Image 2 & NanoBanana Dataset",
+    "description": "A massive open-source dataset of 1,446 trending AI image prompts hit Reddit, complete with system prompt and MCP server integration. The GPT Image 2 cut leans toward posters, typography, and multi-panel storyboards, while the NanoBanana split covers portraits and product shots in JSON format. All prompts are auto-categorized with author attribution, likes, views, and generated image URLs — a goldmine for prompt engineers studying what makes image prompts go viral.",
+    "url": "https://www.reddit.com/r/PromptEngineering/comments/1sypiqc/open_source_1446_trending_ai_image_prompts_for/",
     "source": "Reddit",
     "category": "Image Generation"
   },
   {
-    "title": "video-shotcraft: Turn Claude Code Into a Cinematic Video Studio With One Skill",
-    "description": "A Claude Code skill that transforms the coding agent into a full video production studio using Remotion. Includes 106 pre-built cinematic shot recipe cards, 161 motion previews with swappable variants, and a production-ready template — just hand the repo link to your agent and say 'install.' No fighting templates, actual code output.",
-    "url": "https://x.com/Axel_bitblaze69/status/2082487199765844066",
-    "source": "X",
-    "category": "AI Video"
-  },
-  {
-    "title": "100 Cinematic AI Video Prompts for Kling & Runway — Structured With Swappable Variables",
-    "description": "A curated collection of 100 structured video prompts that use swappable variables for consistent, cinematic results across Kling and Runway. The creator found that templated prompts with variable slots dramatically outperform freeform descriptions, especially for multi-shot sequences and scene continuity.",
-    "url": "https://www.reddit.com/r/PromptEngineering/comments/1scqub2/made_100_cinematic_ai_video_prompts_sharing_some/",
-    "source": "Reddit",
-    "category": "AI Video"
-  },
-  {
-    "title": "A Free Goldmine of AI Agent Examples, Templates, and Advanced Workflows",
-    "description": "A curated collection of production AI agent examples with architecture breakdowns, reusable templates, and advanced multi-agent workflow patterns. Covers tool-use patterns, memory management, and orchestration strategies — the kind of reference that saves weeks of experimentation for builders shipping agent-based products.",
-    "url": "https://www.reddit.com/r/AI_Agents/comments/1mpptgc/a_free_goldmine_of_ai_agent_examples_templates/",
-    "source": "Reddit",
-    "category": "Skills Template"
-  },
-  {
-    "title": "Viral AI Image Trend: Floating Spotify/Apple Music AR Cards — Here's the Prompt",
-    "description": "The prompt behind a viral cinematic AR image trend featuring photorealistic subjects surrounded by floating 3D Spotify and Apple Music interface cards orbiting at varying depths. The dreamlike depth-of-field effect and floating UI aesthetic have made this one of the most copied AI image styles this week.",
+    "title": "Viral AI Image Trend: Cinematic Dreamlike AR With Floating Music Interface Cards",
+    "description": "A specific AI image prompt went viral on Reddit for generating cinematic AR visuals — a photorealistic person surrounded by floating 3D Spotify/Apple Music interface cards orbiting at varying depths. The prompt leverages depth-of-field, atmospheric lighting, and UI-as-subject composition to create dreamlike marketing-style imagery. The thread includes the full prompt text and iteration tips for adapting it to different subjects.",
     "url": "https://www.reddit.com/r/ImagineAiArt/comments/1shic17/everyone_is_generating_this_viral_ai_image_trend/",
     "source": "Reddit",
-    "category": "Image Prompt"
+    "category": "Image Generation"
+  },
+  {
+    "title": "AI Video Generator Deep Dive 2026: Runway vs Kling vs Veo — Which Model for Which Job",
+    "description": "A comprehensive Reddit community comparison of AI video generators in 2026 reveals that no single model wins across the board: Veo 3.1 excels at polished clips with audio, Runway Gen-4 offers the best camera direction control, Kling 3.0 dominates on value and fast iteration for volume testing, and Luma Dream Machine 2.0 leads on atmospheric image-to-video transitions. The thread includes real user experiences and prompt strategy comparisons for each model.",
+    "url": "https://www.reddit.com/r/Freepik_AI/comments/1r6baar/my_deep_dive_into_ai_video_generators_in_2026/",
+    "source": "Reddit",
+    "category": "AI Video"
   }
 ]
